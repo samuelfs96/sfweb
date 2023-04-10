@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import About from "../components/Home/about"
-import Intro from "../components/Home/intro"
+import About from "../components/Home/About"
+import Intro from "../components/Home/Intro"
 
 const Home = () => {
   useEffect(() =>{

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import Intro from '../components/Proyects/intro';
-import List from '../components/Proyects/list';
+import Intro from '../components/Proyects/Intro';
+import List from '../components/Proyects/List';
 
 const Proyects = () => {
   useEffect(() =>{
