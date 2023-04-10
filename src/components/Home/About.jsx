@@ -13,7 +13,6 @@ const About = () => {
             Soy Samuel Figueroa, como desarrollador frontend me esfuerzo por combinar mi experiencia y pasión para 
             crear soluciones tecnológicas atractivas que sean fácilmente accesibles para el usuario a 
             través de interfaces eficaces y de alta calidad.
-            Me aseguro de crear sitios web altamente interactivos.
             Algunas de las tecnologías que manejo mas destacadas son: html, css, javascript, reactjs, nextjs, tailwind, materialui, entre otras...
             Siempre estoy en constante aprendizaje.
         </p>

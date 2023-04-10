@@ -20,7 +20,7 @@ const Index = () => {
           alt="SF Logo"
         />
       </Navbar.Brand>
-      <Navbar.Toggle className='text-black' />
+      <Navbar.Toggle className='text-white' />
       <Navbar.Collapse>
         <li className='max-lg:p-2 cursor-pointer flex items-center hover:opacity-60'> 
           <Link className="h-full flex justify-center items-center" to="/">Inicio</Link>
