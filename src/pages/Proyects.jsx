@@ -1,8 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Intro from '../components/Proyects/intro';
+import List from '../components/Proyects/list';
 
 const Proyects = () => {
+  useEffect(() =>{
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }, [])
   return (
-    <div>Proyects</div>
+    <>
+      <Intro/>
+      <List/>
+    </>
   )
 }
 

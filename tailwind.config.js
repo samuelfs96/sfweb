@@ -24,6 +24,8 @@ module.exports = {
       },
       backgroundImage: {
         'bg1': "url('../src/img/bg1.jpg')",
+        'bg2': "url('../src/img/bg2.jpg')",
+        'bg3': "url('../src/img/bg3.jpg')",
       }
     },
   },

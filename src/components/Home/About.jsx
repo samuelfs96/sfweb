@@ -10,10 +10,10 @@ const About = () => {
     <div className="container text-sgl-gray mt-24 mb-24">
         <h1 className="text-center text-4xl text-sgl-black font-bold m-2">Acerca de mi</h1>
         <p className="text-sgl-gray m-2 text-center mt-12 mb-24 font-lato">
-            Soy Samuel Figueroa, desarrollador frontend con 4 años de experiencia, me esfuerzo por combinar mi experiencia y pasión para 
+            Soy Samuel Figueroa, como desarrollador frontend me esfuerzo por combinar mi experiencia y pasión para 
             crear soluciones tecnológicas atractivas que sean fácilmente accesibles para el usuario a 
             través de interfaces eficaces y de alta calidad.
-            Me aseguro de implementar diseños de alta calidad mientras creo sitios web altamente interactivos.
+            Me aseguro de crear sitios web altamente interactivos.
             Algunas de las tecnologías que manejo mas destacadas son: html, css, javascript, reactjs, nextjs, tailwind, materialui, entre otras...
             Siempre estoy en constante aprendizaje.
         </p>
