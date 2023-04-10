@@ -16,7 +16,7 @@ const Index = () => {
         <img
           src={Logo}
           className="mr-3 h-6 sm:h-9"
-          alt="Flowbite Logo"
+          alt="SF Logo"
         />
       </Navbar.Brand>
       <Navbar.Toggle />
