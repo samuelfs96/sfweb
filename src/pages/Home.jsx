@@ -1,13 +1,11 @@
-import Intro from "../components/Home/Intro"
-import About from "../components/Home/About"
-import Skills from "../components/Home/Skills"
+import About from "../components/Home/about"
+import Intro from "../components/Home/intro"
 
 const Home = () => {
   return (
     <>
       <Intro/>
       <About/>
-      <Skills/>
     </>
   )
 }
