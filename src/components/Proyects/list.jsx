@@ -1,6 +1,6 @@
 import { Badge, Card } from 'flowbite-react'
 import React from 'react'
-import proyects from './proyects'
+import proyects from './proyects-data'
 
 const badgeColors = [
     "info",
