@@ -19,6 +19,12 @@ module.exports = {
           '2xl': '6rem',
         }
       },
+      colors: {
+        'sf-blue': '#3533cd',
+      },
+      backgroundImage: {
+        'bg1': "url('../src/img/bg1.jpg')",
+      }
     },
   },
   plugins: [require('flowbite/plugin')],

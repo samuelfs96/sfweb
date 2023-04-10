@@ -8,7 +8,7 @@ const Index = () => {
     <Navbar
       fluid={false}
       rounded={false}
-      className='bg-gradient-to-r from-black to-[#3533cd] text-white'
+      className='bg-gradient-to-r from-black to-sf-blue text-white'
     >
       <Navbar.Brand
         href="/"

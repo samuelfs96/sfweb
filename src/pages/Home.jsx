@@ -1,11 +1,13 @@
-import React from 'react'
+import Intro from "../components/Home/Intro"
+import About from "../components/Home/About"
+import Skills from "../components/Home/Skills"
 
 const Home = () => {
   return (
     <>
-      <div className='container'>
-        <p>adasdasd</p>
-      </div>
+      <Intro/>
+      <About/>
+      <Skills/>
     </>
   )
 }
