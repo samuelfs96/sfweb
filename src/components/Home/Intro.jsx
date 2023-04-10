@@ -8,7 +8,9 @@ const Intro = () => {
         <div className='absolute text-center gap-4 flex flex-col items-center'>
           <h1 className=' text-white p-8 text-3xl text-center font-thin'>Samuel Figueroa, Desarrollador Frontend</h1>
           <NavLink to='/portafolio'>
-            <button className='bg-gradient-to-r from-black to-sf-blue text-white pr-6 pl-6 pt-2 pb-2 rounded-full font-light'>
+            <button style={{
+              animation: 'pulse 2s infinite'
+            }} className='bg-gradient-to-r from-black to-sf-blue text-white pr-6 pl-6 pt-2 pb-2 rounded-full font-light'>
               Ver Portafolio
             </button>
           </NavLink>

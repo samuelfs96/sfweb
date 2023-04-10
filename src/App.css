@@ -19,3 +19,17 @@
   ::-webkit-scrollbar-thumb:hover {
     background-color: #a8bbbf;
   }
+
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 #3533cd;
+    }
+
+    70% {
+      box-shadow: 0 0 0 10px #6B43BC00;
+    }
+
+    100% {
+      box-shadow: 0 0 0 0 #6B43BC00;
+    }
+  }
