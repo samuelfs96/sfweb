@@ -9,7 +9,7 @@ const Index = () => {
   return (
     <Footer container={true} className='sf-footer'>
       <div className="w-full sm:flex sm:items-center sm:justify-between container">
-        <div className='flex items-center'>
+        <div className='flex items-center justify-center'>
         <NavLink to='/'>
           <Footer.Brand
             src={Logo}
@@ -24,7 +24,7 @@ const Index = () => {
           className='text-white'
         />
         </div>
-        <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
+        <div className="mt-4 flex space-x-6 sm:mt-0 justify-center">
           <Footer.LinkGroup className='gap-4'>
             <a href="https://www.linkedin.com/in/samuel-figueroa-salazar-9568b1113/" target="_blank" rel='noreferrer'>
               <img src={Linkedin} alt="linkedin" className='w-10'/>

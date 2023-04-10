@@ -5,6 +5,7 @@ import Logo from '../img/SF_logo.png'
 
 const Index = () => {
   return (
+    <div className='sticky top-0 z-10 shadow-md'>
     <Navbar
       fluid={false}
       rounded={false}
@@ -19,7 +20,7 @@ const Index = () => {
           alt="SF Logo"
         />
       </Navbar.Brand>
-      <Navbar.Toggle />
+      <Navbar.Toggle className='text-black' />
       <Navbar.Collapse>
         <li className='max-lg:p-2 cursor-pointer flex items-center hover:opacity-60'> 
           <Link className="h-full flex justify-center items-center" to="/">Inicio</Link>
@@ -32,6 +33,7 @@ const Index = () => {
         </li>
       </Navbar.Collapse>
     </Navbar>
+    </div>
   )
 }
 

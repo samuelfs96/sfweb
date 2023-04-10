@@ -17,7 +17,7 @@ const About = () => {
             Algunas de las tecnologías que manejo mas destacadas son: html, css, javascript, reactjs, nextjs, tailwind, materialui, entre otras...
             Siempre estoy en constante aprendizaje.
         </p>
-        <div className='flex items-center justify-center gap-8'>
+        <div className='flex items-center justify-center gap-8 max-md:flex-col'>
             <img src={hcj} alt="hcj" className='h-[120px]' />
             <img src={react} alt="react" className='h-[120px]' />
             <img src={nextjs} alt="nextjs" className='h-[120px]' />
