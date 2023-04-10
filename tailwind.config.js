@@ -5,7 +5,21 @@ module.exports = {
     'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      'sans': ['Roboto Condensed', 'sans-serif'],
+    },
+    extend: {
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: '1rem',
+          sm: '2rem',
+          lg: '4rem',
+          xl: '5rem',
+          '2xl': '6rem',
+        }
+      },
+    },
   },
   plugins: [require('flowbite/plugin')],
 }
