@@ -62,7 +62,7 @@ const proyects = [
     },
     {
         "title": "Lol Champion Stats",
-        "description": "Aplicacion creada para obtener datos en tiempo real del videojuego League of Legends, consulta a la api publica https://ddragon.leagueoflegends.com/, cuenta con filtros, stadisticas y aspectos de cada personaje.",
+        "description": "Aplicación creada para obtener datos en tiempo real del videojuego League of Legends, consulta la api publica https://ddragon.leagueoflegends.com/, cuenta con filtros, estadísticas y aspectos de cada personaje.",
         "skills": [
             "html",
             "css",
