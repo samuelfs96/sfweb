@@ -7,7 +7,7 @@ import pro5 from '../../img/proyects/pro5.png'
 const proyects = [
     {
         "title": "Personal Pokedex",
-        "description": "Pokedex personal con datos reales provenientes de la pokeapi: https://pokeapi.co/, cuenta con banda sonora del juego y switch de audio.",
+        "description": "Pokédex personal con datos reales provenientes de la pokeapi: https://pokeapi.co/, cuenta con banda sonora del juego y switch de audio.",
         "skills": [
             "html",
             "css",
@@ -47,7 +47,7 @@ const proyects = [
     },
     {
         "title": "Prueba Técnica",
-        "description": "Prueba técnica realizada para comprobar conocimientos, cuenta con listado de productos, usuarios, paginación y un workflow creado con la libreria react flow.",
+        "description": "Prueba técnica realizada para validar conocimientos, cuenta con listado de productos, usuarios, paginación y un workflow creado con la libreria react flow.",
         "skills": [
             "html",
             "css",
@@ -62,7 +62,7 @@ const proyects = [
     },
     {
         "title": "Lol Champion Stats",
-        "description": "Aplicación creada para obtener datos en tiempo real del videojuego League of Legends, consulta la api publica https://ddragon.leagueoflegends.com/, cuenta con filtros, estadísticas y aspectos de cada personaje.",
+        "description": "Aplicación para obtener datos en tiempo real del videojuego League of Legends. Consulta la api pública https://ddragon.leagueoflegends.com/, cuenta con filtros, estadísticas y aspectos de cada personaje.",
         "skills": [
             "html",
             "css",
