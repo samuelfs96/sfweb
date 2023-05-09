@@ -2,6 +2,7 @@ import pro1 from '../../img/proyects/pro1.png'
 import pro2 from '../../img/proyects/pro2.png'
 import pro3 from '../../img/proyects/pro3.png'
 import pro4 from '../../img/proyects/pro4.png'
+import pro5 from '../../img/proyects/pro5.png'
 
 const proyects = [
     {
@@ -58,6 +59,21 @@ const proyects = [
         ],
         "image": `${pro4}`,
         "link": "https://snazzy-kleicha-e00173.netlify.app/"
+    },
+    {
+        "title": "Lol Champion Stats",
+        "description": "Aplicacion creada para obtener datos en tiempo real del videojuego League of Legends, consulta a la api publica https://ddragon.leagueoflegends.com/, cuenta con filtros, stadisticas y aspectos de cada personaje.",
+        "skills": [
+            "html",
+            "css",
+            "javascript",
+            "react",
+            "nextjs",
+            "chartjs",
+            "material-ui"
+        ],
+        "image": `${pro5}`,
+        "link": "https://lolchampstats-app.vercel.app/"
     }
 ]
 
