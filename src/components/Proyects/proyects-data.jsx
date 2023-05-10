@@ -6,8 +6,8 @@ import pro5 from '../../img/proyects/pro5.png'
 
 const proyects = [
     {
-        "title": "Personal Pokedex",
-        "description": "Pokédex personal con datos reales provenientes de la pokeapi: https://pokeapi.co/, cuenta con banda sonora del juego y switch de audio.",
+        "title": "Simulador de Pokédex",
+        "description": "Simulador de Pokédex completa con datos provenientes de la pokeapi: https://pokeapi.co/, cuenta con listado, controles y banda sonora.",
         "skills": [
             "html",
             "css",
@@ -20,7 +20,7 @@ const proyects = [
     },
     {
         "title": "Web para Sandstone Global",
-        "description": "Web informativa para la empresa SGL MX. Cuenta un diseño adaptado a todos los dispositivos, cambio de idioma, y conexión a su blog de noticias.",
+        "description": "Web informativa para la empresa SGL MX. Cuenta un diseño adaptado a todos los dispositivos, cambio de idioma, y conexión al blog.",
         "skills": [
             "html",
             "css",
@@ -62,7 +62,7 @@ const proyects = [
     },
     {
         "title": "Lol Champion Stats",
-        "description": "Aplicación para obtener datos en tiempo real del videojuego League of Legends. Consulta la api pública https://ddragon.leagueoflegends.com/, cuenta con filtros, estadísticas y aspectos de cada personaje.",
+        "description": "Aplicación para ver datos actualizados del videojuego League of Legends. Consulta la api pública https://ddragon.leagueoflegends.com/, cuenta con filtros, estadísticas y aspectos.",
         "skills": [
             "html",
             "css",
