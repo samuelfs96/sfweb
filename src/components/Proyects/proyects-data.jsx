@@ -13,6 +13,7 @@ const proyects = [
     skills: ["html", "css", "javascript", "react", "tailwind"],
     image: `${pro1}`,
     link: "https://magnificent-liger-2d9dfc.netlify.app/",
+    code_link: "https://github.com/samuelfs96/personal-pokedex"
   },
   {
     title: "Web para Sandstone Global",
@@ -21,6 +22,7 @@ const proyects = [
     skills: ["html", "css", "javascript", "react", "tailwind", "node"],
     image: `${pro2}`,
     link: "https://sgl.com.mx/",
+    code_link: "https://github.com/samuelfs96/slg"
   },
   {
     title: "Web para CJP Telecom",
@@ -29,6 +31,7 @@ const proyects = [
     skills: ["html", "css", "javascript", "react", "tailwind"],
     image: `${pro3}`,
     link: "https://cjp.mx/",
+    code_link: "https://github.com/samuelfs96/cjp"
   },
   {
     title: "Prueba Técnica",
@@ -45,6 +48,7 @@ const proyects = [
     ],
     image: `${pro4}`,
     link: "https://snazzy-kleicha-e00173.netlify.app/",
+    code_link: "https://github.com/samuelfs96/cpanax-test"
   },
   {
     title: "Lol Champion Stats",
@@ -61,6 +65,7 @@ const proyects = [
     ],
     image: `${pro5}`,
     link: "https://lolchampstats-app.vercel.app/",
+    code_link: "https://github.com/samuelfs96/lolchampstats-app"
   },
   {
     title: "Frontend Mentor - E-commerce product page challenge",
@@ -69,6 +74,7 @@ const proyects = [
     skills: ["html", "css", "javascript", "react", "tailwind"],
     image: `${pro6}`,
     link: "https://polite-crepe-fdbcd1.netlify.app/",
+    code_link: "https://github.com/samuelfs96/frontend-mentor-ec-product-page"
   },
 ];
 

@@ -18,7 +18,7 @@ const list = () => {
   return (
     <div className="container text-sgl-gray mt-24 mb-24">
       <div className="grid grid-cols-3 max-lg:grid-cols-1 gap-4 container">
-        {proyects.map(({ title, description, skills, image, link }, key) => (
+        {proyects.map(({ title, description, skills, image, link, code_link }, key) => (
           <div className="max-w-sm" key={key}>
             <Card
               className="[&>img]:h-[200px] [&>img]:object-cover"
@@ -54,7 +54,7 @@ const list = () => {
                     />
                   </svg>
                 </a>
-                <a title="Ver código" href={link} target="_blank" rel="noreferrer" className="w-[27px] hover:opacity-70">
+                <a title="Ver código" href={code_link} target="_blank" rel="noreferrer" className="w-[27px] hover:opacity-70">
                   <img src={github_logo} alt="github logo" />
                 </a>
               </div>
