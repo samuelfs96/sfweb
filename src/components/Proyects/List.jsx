@@ -21,7 +21,7 @@ const list = () => {
         {proyects.map(({ title, description, skills, image, link, code_link }, key) => (
           <div className="max-w-sm" key={key}>
             <Card
-              className="[&>img]:h-[200px] [&>img]:object-cover"
+              className="[&>img]:h-[200px] [&>img]:object-cover [&>img]:object-top"
               imgSrc={image}
             >
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
