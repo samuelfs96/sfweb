@@ -45,6 +45,8 @@ const List = () => {
             <div className="max-w-xs" key={key}>
               <Card
                 className="[&>img]:h-[200px] [&>img]:object-cover [&>img]:object-center"
+                href={link}
+                target="_blank"
                 imgSrc={image}
               >
                 <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
