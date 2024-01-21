@@ -50,15 +50,6 @@ const proyects = [
     code_link: "https://github.com/samuelfs96/lolchampstats-app"
   },
   {
-    title: "Web para Sandstone Global",
-    description:
-      "Web informativa para la empresa SGL MX. Cuenta un diseño adaptado a todos los dispositivos, cambio de idioma, y conexión al blog.",
-    skills: ["html", "css", "javascript", "react", "tailwind", "node"],
-    image: `${pro2}`,
-    link: "https://sgl.com.mx/",
-    code_link: "https://github.com/samuelfs96/slg"
-  },
-  {
     title: "Simulador de Pokédex",
     description:
       "Simulador de Pokédex completa con datos provenientes de la pokeapi: https://pokeapi.co/, cuenta con listado, controles y banda sonora.",
@@ -66,6 +57,15 @@ const proyects = [
     image: `${pro1}`,
     link: "https://magnificent-liger-2d9dfc.netlify.app/",
     code_link: "https://github.com/samuelfs96/personal-pokedex"
+  },
+  {
+    title: "Web para Sandstone Global",
+    description:
+      "Web informativa para la empresa SGL MX. Cuenta un diseño adaptado a todos los dispositivos, cambio de idioma, y conexión al blog.",
+    skills: ["html", "css", "javascript", "react", "tailwind", "node"],
+    image: `${pro2}`,
+    link: "https://sgl.com.mx/",
+    code_link: "https://github.com/samuelfs96/slg"
   },
   {
     title: "Web para CJP Telecom",
