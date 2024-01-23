@@ -4,8 +4,24 @@ import pro3 from "../../img/proyects/pro3.png";
 import pro4 from "../../img/proyects/pro4.png";
 import pro5 from "../../img/proyects/pro5.png";
 import pro6 from "../../img/proyects/pro6.png";
+import pro7 from "../../img/proyects/pro7.png";
 
 const proyects = [
+  {
+    title: "Champions League Matches Generator",
+    description:
+      "Esta es una aplicación hecha con react.js y tailwind, permite generar partidos de la UEFA Champions League con resultados basados ​​en la forma actual de cada equipo.",
+    skills: [
+      "html",
+      "css",
+      "javascript",
+      "react",
+      "tailwind",
+    ],
+    image: `${pro7}`,
+    link: "https://champions-match-generator.netlify.app/",
+    code_link: "https://github.com/samuelfs96/champions-match-generator"
+  },
   {
     title: "Prueba Técnica(workflow) - Librería react-flow",
     description:
