@@ -1,5 +1,5 @@
 import { Badge, Card } from "flowbite-react";
-import React, { useEffect } from "react";
+import React, { useCallback, useEffect } from "react";
 import proyects from "./proyects-data";
 import github_logo from "../../img/github-mark.png";
 import Bricks from "bricks.js";
@@ -15,27 +15,32 @@ const badgeColors = [
   "pink",
 ];
 
+const sizes = [
+  { mq: "320px", columns: 1, gutter: 10 },
+  { mq: "480px", columns: 1, gutter: 10 },
+  { mq: "600px", columns: 1, gutter: 10 },
+  { mq: "768px", columns: 2, gutter: 10 },
+  { mq: "900px", columns: 2, gutter: 10 },
+  { mq: "1024px", columns: 2, gutter: 10 },
+  { mq: "1280px", columns: 3, gutter: 10 },
+];
+
 const List = () => {
-  useEffect(() => {
-    const sizes = [
-      { mq: '320px', columns: 1, gutter: 10 },
-      { mq: '480px', columns: 1, gutter: 10 },
-      { mq: '600px', columns: 1, gutter: 10 },
-      { mq: '768px', columns: 2, gutter: 10 },
-      { mq: '900px', columns: 2, gutter: 10 },
-      { mq: '1024px', columns: 2, gutter: 10 },
-      { mq: '1280px', columns: 3, gutter: 10 },
-    ];
+  const handleBricksInitialization = useCallback(async () => {
+    await new Promise((resolve) => setTimeout(resolve, 400));
     const instance = Bricks({
       container: ".container.items",
       packed: "data-packed",
       sizes: sizes,
     });
-
     instance
       .resize(true) // bind resize handler
       .pack();
-  }, []);
+  },[]);
+
+  useEffect(() => {
+    handleBricksInitialization();
+  }, [handleBricksInitialization]);
 
   return (
     <div className="container text-sgl-gray mt-24 mb-24">
