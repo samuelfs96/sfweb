@@ -19,6 +19,7 @@ const proyects = [
       "react",
       "tailwind",
       "vite",
+      "framer-motion"
     ],
     image: `${pro7}`,
     link: "https://champions-match-generator.netlify.app/",
