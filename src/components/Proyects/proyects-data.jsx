@@ -5,8 +5,12 @@ import pro4 from "../../img/proyects/pro4.png";
 import pro5 from "../../img/proyects/pro5.png";
 import pro6 from "../../img/proyects/pro6.png";
 import pro7 from "../../img/proyects/pro7.png";
+import pro8 from "../../img/proyects/pro8.png";
+import pro9 from "../../img/proyects/pro9.png";
+import pro10 from "../../img/proyects/pro10.png";
 
 const proyects = [
+  
   {
     title: "Champions League Matches Generator",
     description:
@@ -26,6 +30,79 @@ const proyects = [
     code_link: "https://github.com/samuelfs96/champions-match-generator"
   },
   {
+    title: "Frontend Mentor - E-commerce product page challenge",
+    description:
+      "Página de producto, realizada para resolver el desafio de frontendmentor https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6 cuenta con diseño adaptable y carrito de compras",
+    skills: ["html", "css", "javascript", "react", "tailwind"],
+    image: `${pro6}`,
+    link: "https://polite-crepe-fdbcd1.netlify.app/",
+    code_link: "https://github.com/samuelfs96/frontend-mentor-ec-product-page"
+  },
+  {
+    title: "Página web para Rocket Fired Pizza",
+    description:
+      "Página web informativa para la pizzería Rocket Fired Pizza, cuenta con diseño adaptable.",
+    skills: [
+      "html",
+      "css",
+      "javascript",
+    ],
+    image: `${pro8}`,
+    link: "https://rocketfiredpizza.com/",
+    code_link: "https://rocketfiredpizza.com/"
+  },
+  {
+    title: "Página web para Cardozo Abogados",
+    description:
+      "Página web informativa para el estudio jurídico Cardozo Abogados, cuenta con blog de noticias y diseño adaptable.",
+    skills: [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+    ],
+    image: `${pro10}`,
+    link: "https://cardozoabogados.com.ar/",
+    code_link: "https://cardozoabogados.com.ar/estudio/"
+  },
+  
+  {
+    title: "Página web para Nave Usados",
+    description:
+      "Página web para la empresa Nave Usados, compra y venta de vehiculos, cuenta con diseño adaptable.",
+    skills: [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "mysql"
+    ],
+    image: `${pro9}`,
+    link: "https://www.naveusados.com.ar/",
+    code_link: "https://www.naveusados.com.ar/"
+  },
+  
+  {
+    title: "Página Web para Sandstone Global",
+    description:
+      "Página web informativa para la empresa SGL MX. Cuenta un diseño adaptado a todos los dispositivos, cambio de idioma, y conexión al blog.",
+    skills: ["html", "css", "javascript", "react", "tailwind", "node"],
+    image: `${pro2}`,
+    link: "https://sgl.com.mx/",
+    code_link: "https://sgl.com.mx/"
+  },
+  {
+    title: "Página web para CJP Telecom",
+    description:
+      "Página web informativa para la empresa CJP Telecom MX, diseño adaptable.",
+    skills: ["html", "css", "javascript", "react", "tailwind"],
+    image: `${pro3}`,
+    link: "https://cjp.mx/",
+    code_link: "https://cjp.mx/"
+  },
+  
+  {
     title: "Prueba Técnica(workflow) - Librería react-flow",
     description:
       "Prueba técnica realizada para validar conocimientos, cuenta con listado de productos, usuarios, paginación y un workflow creado con la libreria react flow.",
@@ -42,15 +119,7 @@ const proyects = [
     link: "https://snazzy-kleicha-e00173.netlify.app/",
     code_link: "https://github.com/samuelfs96/cpanax-test"
   },
-  {
-    title: "Frontend Mentor - E-commerce product page challenge",
-    description:
-      "Pagina de producto, realizada para resolver el desafio de frontendmentor https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6 cuenta con diseño adaptable y carrito de compras",
-    skills: ["html", "css", "javascript", "react", "tailwind"],
-    image: `${pro6}`,
-    link: "https://polite-crepe-fdbcd1.netlify.app/",
-    code_link: "https://github.com/samuelfs96/frontend-mentor-ec-product-page"
-  },
+  
   {
     title: "Lol Champion Stats",
     description:
@@ -77,24 +146,7 @@ const proyects = [
     link: "https://magnificent-liger-2d9dfc.netlify.app/",
     code_link: "https://github.com/samuelfs96/personal-pokedex"
   },
-  {
-    title: "Web para Sandstone Global",
-    description:
-      "Web informativa para la empresa SGL MX. Cuenta un diseño adaptado a todos los dispositivos, cambio de idioma, y conexión al blog.",
-    skills: ["html", "css", "javascript", "react", "tailwind", "node"],
-    image: `${pro2}`,
-    link: "https://sgl.com.mx/",
-    code_link: "https://github.com/samuelfs96/slg"
-  },
-  {
-    title: "Web para CJP Telecom",
-    description:
-      "Web informativa para la empresa CJP Telecom MX, diseño adaptable.",
-    skills: ["html", "css", "javascript", "react", "tailwind"],
-    image: `${pro3}`,
-    link: "https://cjp.mx/",
-    code_link: "https://github.com/samuelfs96/cjp"
-  },
+  
   
 ];
 
