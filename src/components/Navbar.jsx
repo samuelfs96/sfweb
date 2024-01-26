@@ -20,16 +20,16 @@ const Index = () => {
           alt="SF Logo"
         />
       </Navbar.Brand>
-      <Navbar.Toggle className='text-white' />
+      <Navbar.Toggle className='text-white hover:bg-transparent' />
       <Navbar.Collapse>
-        <li className='max-lg:p-2 cursor-pointer flex items-center hover:opacity-60'> 
-          <Link className="h-full flex justify-center items-center" to="/">Inicio</Link>
+        <li className='max-lg:p-4 cursor-pointer flex items-center hover:opacity-60'> 
+          <Link className="h-full flex justify-center items-center uppercase text-xs" to="/">Inicio</Link>
         </li>
-        <li className='max-lg:p-2 cursor-pointer flex items-center hover:opacity-60'> 
-          <Link to="/portafolio" className="h-full flex justify-center items-center">Portafolio</Link>
+        <li className='max-lg:p-4 cursor-pointer flex items-center hover:opacity-60'> 
+          <Link to="/portafolio" className="h-full flex justify-center items-center uppercase text-xs">Portafolio</Link>
         </li>
-        <li className='max-lg:p-2 cursor-pointer flex items-center hover:opacity-60'> 
-          <Link to="/contacto" className="h-full flex justify-center items-center">Contacto</Link>
+        <li className='max-lg:p-4 cursor-pointer flex items-center hover:opacity-60'> 
+          <Link to="/contacto" className="h-full flex justify-center items-center uppercase text-xs">Contacto</Link>
         </li>
       </Navbar.Collapse>
     </Navbar>
