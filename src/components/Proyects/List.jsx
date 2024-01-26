@@ -19,10 +19,11 @@ const sizes = [
   { mq: "320px", columns: 1, gutter: 10 },
   { mq: "480px", columns: 1, gutter: 10 },
   { mq: "600px", columns: 1, gutter: 10 },
-  { mq: "768px", columns: 2, gutter: 10 },
-  { mq: "900px", columns: 2, gutter: 10 },
-  { mq: "1024px", columns: 2, gutter: 10 },
-  { mq: "1280px", columns: 3, gutter: 10 },
+  { mq: "768px", columns: 2, gutter: 5 },
+  { mq: "900px", columns: 2, gutter: 5 },
+  { mq: "1024px", columns: 3, gutter: 5 },
+  { mq: "1280px", columns: 3, gutter: 5 },
+  { mq: "1440px", columns: 4, gutter: 5 },
 ];
 
 const List = () => {
@@ -49,7 +50,7 @@ const List = () => {
           ({ title, description, skills, image, link, code_link }, key) => (
             <div className="max-w-xs" key={key}>
               <Card
-                className="[&>img]:h-[200px] [&>img]:object-cover [&>img]:object-center"
+                className="[&>img]:h-[200px] [&>img]:object-cover [&>img]:object-center rounded-none [&>img]:rounded-none"
                 href={link}
                 target="_blank"
                 imgSrc={image}
