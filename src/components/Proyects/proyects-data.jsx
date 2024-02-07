@@ -1,12 +1,12 @@
 import pro1 from "../../img/proyects/pro1.png";
 import pro2 from "../../img/proyects/pro2.png";
-import pro3 from "../../img/proyects/pro3.png";
+//import pro3 from "../../img/proyects/pro3.png";
 import pro4 from "../../img/proyects/pro4.png";
 import pro5 from "../../img/proyects/pro5.png";
 import pro6 from "../../img/proyects/pro6.png";
 import pro7 from "../../img/proyects/pro7.png";
 import pro8 from "../../img/proyects/pro8.png";
-import pro9 from "../../img/proyects/pro9.png";
+//import pro9 from "../../img/proyects/pro9.png";
 import pro10 from "../../img/proyects/pro10.png";
 
 const proyects = [
