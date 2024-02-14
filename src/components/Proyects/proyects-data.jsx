@@ -68,21 +68,21 @@ const proyects = [
     code_link: "https://cardozoabogados.com.ar/estudio/"
   },
   
-  // {
-  //   title: "Página web para Nave Usados",
-  //   description:
-  //     "Página web para la empresa Nave Usados, compra y venta de vehiculos, cuenta con diseño adaptable.",
-  //   skills: [
-  //     "html",
-  //     "css",
-  //     "javascript",
-  //     "php",
-  //     "mysql"
-  //   ],
-  //   image: `${pro9}`,
-  //   link: "https://www.naveusados.com.ar/",
-  //   code_link: "https://www.naveusados.com.ar/"
-  // },
+  /*{
+    title: "Página web para Nave Usados",
+    description:
+      "Página web para la empresa Nave Usados, compra y venta de vehiculos, cuenta con diseño adaptable.",
+    skills: [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "mysql"
+    ],
+    image: `${pro9}`,
+    link: "https://www.naveusados.com.ar/",
+    code_link: "https://www.naveusados.com.ar/"
+  },*/
   
   {
     title: "Página Web para Sandstone Global",
@@ -93,15 +93,16 @@ const proyects = [
     link: "https://sgl.com.mx/",
     code_link: "https://sgl.com.mx/"
   },
-  // {
-  //   title: "Página web para CJP Telecom",
-  //   description:
-  //     "Página web informativa para la empresa CJP Telecom MX, diseño adaptable.",
-  //   skills: ["html", "css", "javascript", "react", "tailwind"],
-  //   image: `${pro3}`,
-  //   link: "https://cjp.mx/",
-  //   code_link: "https://cjp.mx/"
-  // },
+  
+  /*{
+    title: "Página web para CJP Telecom",
+    description:
+      "Página web informativa para la empresa CJP Telecom MX, diseño adaptable.",
+    skills: ["html", "css", "javascript", "react", "tailwind"],
+    image: `${pro3}`,
+    link: "https://cjp.mx/",
+    code_link: "https://cjp.mx/"
+  },*/
   
   {
     title: "Prueba Técnica(workflow) - Librería react-flow",
