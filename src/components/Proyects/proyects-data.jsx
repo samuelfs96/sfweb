@@ -155,8 +155,8 @@ const proyects = [
       `Esta es una aplicación para practicar los conceptos y principios de clean architecture, además del manejo de estado con redux.`,
     skills: ["html", "css", "javascript", "react", "material-ui", "redux", "style-components"],
     image: `${pro11}`,
-    link: "https://github.com/samuelfs96/good-practices-app",
-    code_link: "https://github.com/samuelfs96/personal-pokedex"
+    link: "https://euphonious-sable-a6025e.netlify.app/",
+    code_link: "https://github.com/samuelfs96/good-practices-app"
   },
   
   
