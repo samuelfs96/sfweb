@@ -1,13 +1,14 @@
 import pro1 from "../../img/proyects/pro1.png";
 import pro2 from "../../img/proyects/pro2.png";
-import pro3 from "../../img/proyects/pro3.png";
+//import pro3 from "../../img/proyects/pro3.png";
 import pro4 from "../../img/proyects/pro4.png";
 import pro5 from "../../img/proyects/pro5.png";
 import pro6 from "../../img/proyects/pro6.png";
 import pro7 from "../../img/proyects/pro7.png";
 import pro8 from "../../img/proyects/pro8.png";
-import pro9 from "../../img/proyects/pro9.png";
+//import pro9 from "../../img/proyects/pro9.png";
 import pro10 from "../../img/proyects/pro10.png";
+import pro11 from "../../img/proyects/pro11.png";
 
 const proyects = [
   
@@ -67,21 +68,21 @@ const proyects = [
     code_link: "https://cardozoabogados.com.ar/estudio/"
   },
   
-  {
-    title: "Página web para Nave Usados",
-    description:
-      "Página web para la empresa Nave Usados, compra y venta de vehiculos, cuenta con diseño adaptable.",
-    skills: [
-      "html",
-      "css",
-      "javascript",
-      "php",
-      "mysql"
-    ],
-    image: `${pro9}`,
-    link: "https://www.naveusados.com.ar/",
-    code_link: "https://www.naveusados.com.ar/"
-  },
+  // {
+  //   title: "Página web para Nave Usados",
+  //   description:
+  //     "Página web para la empresa Nave Usados, compra y venta de vehiculos, cuenta con diseño adaptable.",
+  //   skills: [
+  //     "html",
+  //     "css",
+  //     "javascript",
+  //     "php",
+  //     "mysql"
+  //   ],
+  //   image: `${pro9}`,
+  //   link: "https://www.naveusados.com.ar/",
+  //   code_link: "https://www.naveusados.com.ar/"
+  // },
   
   {
     title: "Página Web para Sandstone Global",
@@ -92,15 +93,15 @@ const proyects = [
     link: "https://sgl.com.mx/",
     code_link: "https://sgl.com.mx/"
   },
-  {
-    title: "Página web para CJP Telecom",
-    description:
-      "Página web informativa para la empresa CJP Telecom MX, diseño adaptable.",
-    skills: ["html", "css", "javascript", "react", "tailwind"],
-    image: `${pro3}`,
-    link: "https://cjp.mx/",
-    code_link: "https://cjp.mx/"
-  },
+  // {
+  //   title: "Página web para CJP Telecom",
+  //   description:
+  //     "Página web informativa para la empresa CJP Telecom MX, diseño adaptable.",
+  //   skills: ["html", "css", "javascript", "react", "tailwind"],
+  //   image: `${pro3}`,
+  //   link: "https://cjp.mx/",
+  //   code_link: "https://cjp.mx/"
+  // },
   
   {
     title: "Prueba Técnica(workflow) - Librería react-flow",
@@ -144,6 +145,16 @@ const proyects = [
     skills: ["html", "css", "javascript", "react", "tailwind"],
     image: `${pro1}`,
     link: "https://magnificent-liger-2d9dfc.netlify.app/",
+    code_link: "https://github.com/samuelfs96/personal-pokedex"
+  },
+  
+  {
+    title: "Good Practices App",
+    description:
+      `Esta es una aplicación para practicar los conceptos y principios de clean architecture, además del manejo de estado con redux.`,
+    skills: ["html", "css", "javascript", "react", "material-ui", "redux", "style-components"],
+    image: `${pro11}`,
+    link: "https://github.com/samuelfs96/good-practices-app",
     code_link: "https://github.com/samuelfs96/personal-pokedex"
   },
   
