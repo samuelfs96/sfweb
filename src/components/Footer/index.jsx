@@ -1,22 +1,22 @@
 import { Footer } from 'flowbite-react'
 import Linkedin from '../../img/linkedin.png'
 import Github from '../../img/github.png'
-import { NavLink } from 'react-router-dom'
 import Logo from '../../img/SF_logo.png'
 import './styles.css'
+import { Link } from 'react-scroll'
 
 const Index = () => {
   return (
     <Footer container={true} className='sf-footer'>
       <div className="w-full sm:flex sm:items-center sm:justify-between container">
         <div className='flex items-center justify-center'>
-        <NavLink to='/'>
+        <Link to='inicio'>
           <Footer.Brand
             src={Logo}
             alt="SF Logo"
             className='mr-1'
           />
-        </NavLink>
+        </Link>
         <Footer.Copyright
           href="/"
           by="Samuel Figueroa"

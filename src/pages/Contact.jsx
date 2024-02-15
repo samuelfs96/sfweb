@@ -3,13 +3,8 @@ import email from '../img/email.png'
 
 const Contact = () => {
   return (
-    <>
-    <div className='h-[80vh] flex items-center justify-center'>
-        <div className='bg-bg2 bg-cover h-full w-full' style={{filter: 'brightness(0.3)'}}></div>
-        <div className='absolute text-center gap-4 flex flex-col items-center'>
-          <h1 className=' text-white p-8 text-3xl text-center font-bold uppercase'>Datos de Contacto</h1>
-        </div>
-      </div>
+    <section id="contacto">
+      <h1 className=' p-8 text-3xl text-center font-bold uppercase'>Datos de Contacto</h1>
       <div className="flex justify-center items-start max-sm:flex-col max-sm:items-center mt-12 mb-12 gap-12">
         <div className="flex items-center gap-4 pb-4">
           <img src={phone} alt="phone" className='w-20' />
@@ -26,7 +21,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   )
 }
 
