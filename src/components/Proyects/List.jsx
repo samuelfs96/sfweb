@@ -41,7 +41,8 @@ const List = () => {
 
   useEffect(() => {
     handleBricksInitialization();
-  }, [handleBricksInitialization]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <div className="container text-sgl-gray mt-24 mb-24">
@@ -50,7 +51,7 @@ const List = () => {
           ({ title, description, skills, image, link, code_link }, key) => (
             <div className="max-w-xs" key={key}>
               <Card
-                className="bg-slate-800 border-t-0 border-b-2 border-x-0 border-sf-blue 
+                className="bg-transparent border-t-0 border-b-2 border-x-0 border-sf-blue 
                 [&>img]:h-[200px] [&>img]:object-cover 
                 [&>img]:object-center rounded-none 
                 [&>img]:rounded-none
@@ -60,7 +61,7 @@ const List = () => {
                 target="_blank"
                 imgSrc={image}
               >
-                <h5 className="text-xl font-bold tracking-tight text-white ">
+                <h5 className="text-lg font-bold tracking-tight text-white ">
                   {title}
                 </h5>
                 <div className="flex flex-wrap gap-2">
@@ -70,7 +71,7 @@ const List = () => {
                     </Badge>
                   ))}
                 </div>
-                <p className="text-sm font-normal text-white break-words">
+                <p className="text-xs font-normal text-white break-words">
                   {description}
                 </p>
                 <div className="flex gap-2 items-center justify-end">

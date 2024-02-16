@@ -12,12 +12,12 @@ const Home = () => {
     });
   }, [])
   return (
-    <>
+    <main className="bg-black">
       <Intro/>
       <About/>
       <Proyects/>
       <Contact/>
-    </>
+    </main>
   )
 }
 
