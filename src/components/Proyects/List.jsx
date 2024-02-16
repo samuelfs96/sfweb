@@ -19,11 +19,11 @@ const sizes = [
   { mq: "320px", columns: 1, gutter: 10 },
   { mq: "480px", columns: 1, gutter: 10 },
   { mq: "600px", columns: 1, gutter: 10 },
-  { mq: "768px", columns: 2, gutter: 5 },
-  { mq: "900px", columns: 2, gutter: 5 },
-  { mq: "1024px", columns: 3, gutter: 5 },
-  { mq: "1280px", columns: 3, gutter: 5 },
-  { mq: "1440px", columns: 4, gutter: 5 },
+  { mq: "768px", columns: 2, gutter: 10 },
+  { mq: "900px", columns: 2, gutter: 10 },
+  { mq: "1024px", columns: 3, gutter: 10 },
+  { mq: "1280px", columns: 3, gutter: 10 },
+  { mq: "1440px", columns: 3, gutter: 10 },
 ];
 
 const List = () => {
@@ -37,7 +37,7 @@ const List = () => {
     instance
       .resize(true) // bind resize handler
       .pack();
-  },[]);
+  }, []);
 
   useEffect(() => {
     handleBricksInitialization();
@@ -50,12 +50,17 @@ const List = () => {
           ({ title, description, skills, image, link, code_link }, key) => (
             <div className="max-w-xs" key={key}>
               <Card
-                className="[&>img]:h-[200px] [&>img]:object-cover [&>img]:object-center rounded-none [&>img]:rounded-none"
+                className="bg-slate-800 border-t-0 border-b-2 border-x-0 border-sf-blue 
+                [&>img]:h-[200px] [&>img]:object-cover 
+                [&>img]:object-center rounded-none 
+                [&>img]:rounded-none
+                hover:bg-slate-900
+                "
                 href={link}
                 target="_blank"
                 imgSrc={image}
               >
-                <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 className="text-xl font-bold tracking-tight text-white ">
                   {title}
                 </h5>
                 <div className="flex flex-wrap gap-2">
@@ -65,13 +70,13 @@ const List = () => {
                     </Badge>
                   ))}
                 </div>
-                <p className="font-normal text-gray-700 dark:text-gray-400 break-words">
+                <p className="text-sm font-normal text-white break-words">
                   {description}
                 </p>
                 <div className="flex gap-2 items-center justify-end">
                   <a
                     title="Ver demo"
-                    className="hover:opacity-70"
+                    className=" text-white"
                     href={link}
                     target="_blank"
                     rel="noreferrer"
@@ -96,9 +101,9 @@ const List = () => {
                     href={code_link}
                     target="_blank"
                     rel="noreferrer"
-                    className="w-[27px] hover:opacity-70"
+                    className="w-[27px]"
                   >
-                    <img src={github_logo} alt="github logo" />
+                    <img src={github_logo} alt="github logo" className="invert" />
                   </a>
                 </div>
               </Card>
