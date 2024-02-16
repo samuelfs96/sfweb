@@ -2,7 +2,7 @@ import { Navbar } from "flowbite-react";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 
-const SECTIONS = ['inicio', 'portafolio', 'contacto'];
+const SECTIONS = ["inicio", "portafolio", "contacto"];
 
 const Index = () => {
   const [activeBlur, setActiveBlur] = useState(false);
@@ -12,13 +12,13 @@ const Index = () => {
     menu.classList.toggle("hidden");
     setActiveBlur((isActive) => !isActive);
   };
+  const handleScroll = () => {
+    const current = Math.floor(window.scrollY);
+    if (current > 450) setActiveBg(true);
+    else setActiveBg(false);
+  };
 
   useEffect(() => {
-    const handleScroll = () => {
-      const current = Math.floor(window.scrollY);
-      if (current > 450) setActiveBg(true);
-      else setActiveBg(false);
-    };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -36,18 +36,16 @@ const Index = () => {
           className="text-white hover:bg-transparent"
         />
         <Navbar.Collapse id="menu-list" className="py-4">
-        {SECTIONS.map((section) => (
-          <li key={section} className="max-lg:p-4 cursor-pointer flex items-center hover:opacity-60">
-          <Link
-            to={section}
-            smooth
-            className="uppercase"
-          >
-            {section}
-          </Link>
-          </li>
-        ))}
-          
+          {SECTIONS.map((section) => (
+            <li
+              key={section}
+              className="max-lg:p-4 cursor-pointer flex items-center hover:opacity-60"
+            >
+              <Link to={section} smooth className="uppercase">
+                {section}
+              </Link>
+            </li>
+          ))}
         </Navbar.Collapse>
       </Navbar>
     </div>
