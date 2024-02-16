@@ -1,5 +1,8 @@
 import React from "react";
 import hcj from "../../img/hcj.png";
+import php from "../../img/php.png";
+import laravel from "../../img/laravel.svg";
+import wordpress from "../../img/wordpress.png";
 import react from "../../img/react.png";
 import nextjs from "../../img/nextjs.png";
 import tailwind from "../../img/tailwind.png";
@@ -7,23 +10,27 @@ import mui from "../../img/mui.png";
 
 const About = () => {
   return (
-    <div className="flex mt-24 mb-24 max-md:flex-col">
-      <div className="w-[70%] container">
-        <h1 className=" text-4xl font-bold m-2 uppercase">
+    <div className="flex max-md:flex-col py-28 bg-gradient-to-bl from-black to-[#0f172a]">
+      <div className="w-[60%] max-md:w-full container">
+        <h1 className="text-white text-4xl font-bold m-2 mt-20 uppercase">
           Acerca de mi
         </h1>
-        <p className="text-sgl-gray m-2 mt-6 mb-24 font-lato">
-          Soy Samuel Figueroa, como desarrollador frontend me esfuerzo por
+        <hr className="border-4 border-sf-blue w-[20%] -skew-x-12"/>
+        <p className="text-white mt-12 mb-24 font-light text-lg">
+          Soy Samuel Figueroa, como <span className="font-bold">desarrollador frontend</span> me esfuerzo por
           combinar mi experiencia y pasión para crear soluciones tecnológicas
           atractivas que sean fácilmente accesibles para el usuario a través de
           interfaces eficaces y de alta calidad. Algunas de las tecnologías que
-          manejo mas destacadas son: html, css, javascript, reactjs, nextjs,
-          tailwind, materialui, entre otras... Siempre estoy en constante
+          manejo mas destacadas son: <span className="font-bold">html, css, javascript, php, laravel, wordpress, reactjs, nextjs,
+          tailwind, materialui,</span> entre otras... Siempre estoy en constante
           aprendizaje.
         </p>
       </div>
-      <div className="flex items-center justify-center gap-8 flex-wrap max-md:flex-col">
+      <div className="flex items-center justify-center gap-8 flex-wrap w-[40%] max-md:w-full">
         <img src={hcj} alt="hcj" className="h-[120px]" />
+        <img src={php} alt="php" className="h-[120px]" />
+        <img src={laravel} alt="laravel" className="h-[120px]" />
+        <img src={wordpress} alt="wordpress" className="h-[120px]" />
         <img src={react} alt="react" className="h-[120px]" />
         <img src={nextjs} alt="nextjs" className="h-[120px]" />
         <img src={tailwind} alt="tailwind" className="h-[120px]" />

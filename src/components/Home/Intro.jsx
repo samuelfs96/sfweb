@@ -10,9 +10,10 @@ const Intro = () => {
         style={{ filter: "brightness(0.2)" }}
       ></div>
       <div className="absolute w-full container">
-        <h1 className=" text-white text-4xl font-thin uppercase mb-2 mt-8 max-lg:flex max-lg:flex-col max-lg:items-center">
-          <span className="text-3xl">Samuel Figueroa,</span>{" "}
-          <span className="font-bold italic text-center">
+        <h1 className=" text-white text-4xl uppercase mb-2 mt-20 max-lg:mt-40 max-lg:text-center">
+          <span className="text-5xl font-bold">Samuel</span><br />
+          <span className="text-9xl max-lg:text-8xl max-md:text-7xl font-bold">Figueroa</span><br />
+          <span className="text-md max-md:text-sm text-center font-thin tracking-widest border-l-sf-blue border-l-4 pl-4">
             Desarrollador Frontend
           </span>
         </h1>
@@ -40,7 +41,7 @@ const Intro = () => {
         </div>
         <img
           src={Logo}
-          className="absolute right-0 bottom-[-180px] w-80 max-lg:relative max-lg:bottom-[-80px] max-lg:w-40"
+          className="absolute right-0 bottom-[-80px] w-80 max-lg:relative max-lg:bottom-[-80px] max-lg:w-40"
           alt="SF Logo"
         />
       </div>

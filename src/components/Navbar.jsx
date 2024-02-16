@@ -41,7 +41,7 @@ const Index = () => {
           <Link
             to={section}
             smooth
-            className="uppercase text-xs"
+            className="uppercase"
           >
             {section}
           </Link>
