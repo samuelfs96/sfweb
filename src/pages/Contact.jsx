@@ -5,7 +5,7 @@ import pdf_file from '../resources/CV_Samuel_Figueroa_frontendDev.pdf'
 
 const Contact = () => {
   return (
-    <section id="contacto" className='py-16 bg-gradient-to-tl from-black to-[#0f172a]'>
+    <section id="contacto" className='py-16 bg-gradient-to-tl from-black to-[#0f172a] max-xs:container'>
       <div className="flex items-center flex-col my-16">
       <div>
         <h1
@@ -17,24 +17,24 @@ const Contact = () => {
       </div>
     </div>
       <div className="flex justify-center items-center">
-        <div>
+        <div className='flex gap-16 items-start my-16 max-lg:flex-col max-lg:gap-4'>
         <div className="flex items-center gap-4 pb-4">
           <img src={phone} alt="phone" className='w-20 invert' />
           <div>
-            <h2 className="text-2xl font-bold text-white">Teléfono</h2>
+            <h2 className="text-xl font-bold text-white uppercase">Teléfono</h2>
             <p className="font-light text-white">+584120962677</p>
           </div>
         </div>
         <div className="flex items-center gap-4 pb-4">
           <img src={email} alt="email" className='w-20 invert' />
           <div>
-            <h2 className="text-2xl font-bold text-white">Email</h2>
+            <h2 className="text-xl font-bold text-white uppercase">Email</h2>
             <p className="font-light text-white">samuelfs96@gmail.com</p>
           </div>
         </div>
-        <div className="flex items-center gap-4 pb-4 cursor-pointer" onClick={() => window.open(pdf_file)}>
+        <div className="flex items-center gap-4 px-4 max-lg:px-12 max-lg:py-3 max-lg:bg-sf-blue cursor-pointer hover:bg-sf-blue -skew-x-12 [&>*]:skew-x-12 transition-all" onClick={() => window.open(pdf_file)}>
           <img src={pdf} alt="pdf" className='w-20 invert' />
-            <h2 className="text-2xl font-bold text-white">Ver CV</h2>
+            <h2 className="text-xl font-bold text-white uppercase">Ver CV</h2>
         </div>
         </div>
       </div>
