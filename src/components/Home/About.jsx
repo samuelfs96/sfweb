@@ -14,7 +14,7 @@ const About = () => {
       <div className="w-[60%] max-md:w-full container">
         <div className="max-md:container">
           <h1 className="text-white text-4xl font-bold m-2 mt-20 uppercase">
-            Acerca de mi
+            Acerca de mí
           </h1>
           <hr className="border-4 border-sf-blue w-[20%] -skew-x-12" />
           <p className="text-white mt-12 mb-24 font-light text-lg">
