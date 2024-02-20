@@ -56,6 +56,8 @@ const List = () => {
                 [&>img]:object-center rounded-none 
                 [&>img]:rounded-none
                 hover:bg-slate-900
+                hover:-translate-y-2
+                transition-transform
                 "
                 href={link}
                 target="_blank"
