@@ -34,7 +34,7 @@ const proyects = [
   {
     title: "Manchester City - Formation Builder",
     description:
-      "Esta es una aplicación hecha con react, con el objetivo de probar la librería @formkit/drag-and-drop creando una interfaz basada en la ui de las retransmisiones oficiales de la premiership, permite crear una formación con los jugadores del machester city.",
+      "Esta es una aplicación hecha con react, con el objetivo de probar la librería @formkit/drag-and-drop creando una interfaz basada en la ui de las retransmisiones oficiales de la premier league, permite crear una formación con los jugadores del machester city.",
     skills: [
       "html",
       "css",
