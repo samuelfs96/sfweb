@@ -9,6 +9,7 @@ import pro8 from "../../img/proyects/pro8.png";
 //import pro9 from "../../img/proyects/pro9.png";
 import pro10 from "../../img/proyects/pro10.png";
 import pro11 from "../../img/proyects/pro11.png";
+import pro12 from "../../img/proyects/pro12.png";
 
 const proyects = [
   
@@ -29,6 +30,23 @@ const proyects = [
     image: `${pro7}`,
     link: "https://champions-match-generator.netlify.app/",
     code_link: "https://github.com/samuelfs96/champions-match-generator"
+  },
+  {
+    title: "Manchester City - Formation Builder",
+    description:
+      "Esta es una aplicación hecha con react, con el objetivo de probar la librería @formkit/drag-and-drop creando una interfaz basada en la ui de las retransmisiones oficiales de la premiership, permite crear una formación con los jugadores del machester city.",
+    skills: [
+      "html",
+      "css",
+      "javascript",
+      "react",
+      "tailwind",
+      "vite",
+      "formkit/drag-and-drop"
+    ],
+    image: `${pro12}`,
+    link: "https://mci-formation-builder.netlify.app/",
+    code_link: "https://github.com/samuelfs96/formation-builder"
   },
   {
     title: "Frontend Mentor - E-commerce product page challenge",
