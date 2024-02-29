@@ -1,7 +1,7 @@
 import phone from '../img/telefono.png'
 import email from '../img/email.png'
 import pdf from '../img/pdf.png'
-import pdf_file from '../resources/CV_Samuel_Figueroa_frontendDev.pdf'
+import pdf_file from '../resources/CV_Samuel_Figueroa_react_dev'
 
 const Contact = () => {
   return (
