@@ -68,7 +68,7 @@ const List = () => {
                 </h5>
                 <div className="flex flex-wrap gap-2">
                   {skills.map((skill, key) => (
-                    <Badge color={badgeColors[key]} key={key}>
+                    <Badge color={badgeColors[Math.floor(key % badgeColors.length)]} key={key}>
                       {skill}
                     </Badge>
                   ))}

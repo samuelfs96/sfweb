@@ -10,6 +10,7 @@ import pro8 from "../../img/proyects/pro8.png";
 import pro10 from "../../img/proyects/pro10.png";
 import pro11 from "../../img/proyects/pro11.png";
 import pro12 from "../../img/proyects/pro12.png";
+import pro13 from "../../img/proyects/pro13.png";
 
 const proyects = [
   
@@ -47,6 +48,27 @@ const proyects = [
     image: `${pro12}`,
     link: "https://mci-formation-builder.netlify.app/",
     code_link: "https://github.com/samuelfs96/formation-builder"
+  },
+  {
+    title: "MyTaskApp - Django REST framework + (Vite/React/TS)",
+    description:
+      "Esta es una aplicación para crear tareas o notas, tomando como referencia google keep, te permite iniciar sesión con google y apple. Está hecho con django rest framework y react.js.",
+    skills: [
+      "html",
+      "css",
+      "javascript",
+      "typescript",
+      "react",
+      "tailwind",
+      "vite",
+      "framer-motion",
+      "phyton",
+      "django",
+      "django-rest-framework"
+    ],
+    image: `${pro13}`,
+    link: "https://github.com/samuelfs96/MyTasksApp",
+    code_link: "https://github.com/samuelfs96/MyTasksApp"
   },
   {
     title: "Frontend Mentor - E-commerce product page challenge",
