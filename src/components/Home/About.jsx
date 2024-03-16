@@ -7,6 +7,8 @@ import react from "../../img/react.png";
 import nextjs from "../../img/nextjs.png";
 import tailwind from "../../img/tailwind.png";
 import mui from "../../img/mui.png";
+import python from "../../img/python.png";
+import django from "../../img/django.png";
 
 const About = () => {
   return (
@@ -19,13 +21,13 @@ const About = () => {
           <hr className="border-4 border-sf-blue w-[20%] -skew-x-12" />
           <p className="text-white mt-12 mb-24 font-light text-lg">
             Soy Samuel Figueroa, como{" "}
-            <span className="font-bold">desarrollador frontend</span> me
+            <span className="font-bold">Desarrollador Full Stack</span> me
             esfuerzo por combinar mi experiencia y pasión para crear soluciones
             tecnológicas atractivas que sean fácilmente accesibles para el
             usuario a través de interfaces eficaces y de alta calidad. Algunas
             de las tecnologías que manejo mas destacadas son:{" "}
             <span className="font-bold">
-              html, css, javascript, php, laravel, wordpress, reactjs, nextjs,
+              html, css, javascript, php, python, laravel, django, wordpress, reactjs, nextjs,
               tailwind, materialui,
             </span>{" "}
             entre otras... Siempre estoy en constante aprendizaje.
@@ -35,7 +37,9 @@ const About = () => {
       <div className="flex items-center justify-center gap-8 flex-wrap w-[40%] max-md:w-full">
         <img src={hcj} alt="hcj" className="h-[120px]" />
         <img src={php} alt="php" className="h-[120px]" />
+        <img src={python} alt="mui" className="h-[120px]" />
         <img src={laravel} alt="laravel" className="h-[120px]" />
+        <img src={django} alt="mui" className="h-[120px]" />
         <img src={wordpress} alt="wordpress" className="h-[120px]" />
         <img src={react} alt="react" className="h-[120px]" />
         <img src={nextjs} alt="nextjs" className="h-[120px]" />
