@@ -20,7 +20,7 @@
     background-color: #a8bbbf;
   }
 
-  @keyframes pulse {
+  @keyframes my-pulse {
     0% {
       box-shadow: 0 0 0 0 #3533cd;
     }

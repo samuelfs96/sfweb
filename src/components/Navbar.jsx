@@ -28,7 +28,7 @@ const Index = () => {
         fluid={false}
         rounded={false}
         className={`${
-          activeBg ? "bg-gradient-to-r from-black to-sf-blue" : "bg-transparent"
+          activeBg ? "bg-inherit bg-gradient-to-r from-black to-sf-blue" : "bg-transparent"
         } ${activeBlur ? "backdrop-blur-xl" : ""} text-white [&>*]:justify-end`}
       >
         <Navbar.Toggle

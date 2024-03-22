@@ -21,7 +21,7 @@ const Intro = () => {
           <Link to="portafolio" smooth>
             <button
               style={{
-                animation: "pulse 2s infinite",
+                animation: "my-pulse 2s infinite",
               }}
               className="bg-sf-blue text-white px-10 py-3 uppercase rounded-full text-sm border-2 border-sf-blue"
             >
@@ -31,7 +31,7 @@ const Intro = () => {
           <Link to="contacto" smooth>
             <button
               style={{
-                animation: "pulse 2s infinite",
+                animation: "my-pulse 2s infinite",
               }}
               className=" text-white px-10 py-3 uppercase rounded-full text-sm border-2 border-sf-blue hover:bg-sf-blue transition-all"
             >

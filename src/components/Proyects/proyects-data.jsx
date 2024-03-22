@@ -2,13 +2,13 @@ import pro1 from "../../img/proyects/pro1.png";
 import pro2 from "../../img/proyects/pro2.png";
 //import pro3 from "../../img/proyects/pro3.png";
 import pro4 from "../../img/proyects/pro4.png";
-import pro5 from "../../img/proyects/pro5.png";
+//import pro5 from "../../img/proyects/pro5.png";
 import pro6 from "../../img/proyects/pro6.png";
 import pro7 from "../../img/proyects/pro7.png";
 import pro8 from "../../img/proyects/pro8.png";
 //import pro9 from "../../img/proyects/pro9.png";
 import pro10 from "../../img/proyects/pro10.png";
-import pro11 from "../../img/proyects/pro11.png";
+//import pro11 from "../../img/proyects/pro11.png";
 import pro12 from "../../img/proyects/pro12.png";
 import pro13 from "../../img/proyects/pro13.png";
 
@@ -50,36 +50,6 @@ const proyects = [
     code_link: "https://github.com/samuelfs96/formation-builder"
   },
   {
-    title: "MyTaskApp - Django REST framework + (Vite/React/TS)",
-    description:
-      "Esta es una aplicación para crear tareas o notas, tomando como referencia google keep, te permite iniciar sesión con google y apple. Está hecho con django rest framework y react.js.",
-    skills: [
-      "html",
-      "css",
-      "javascript",
-      "typescript",
-      "react",
-      "tailwind",
-      "vite",
-      "framer-motion",
-      "phyton",
-      "django",
-      "django-rest-framework"
-    ],
-    image: `${pro13}`,
-    link: "https://github.com/samuelfs96/MyTasksApp",
-    code_link: "https://github.com/samuelfs96/MyTasksApp"
-  },
-  {
-    title: "Frontend Mentor - E-commerce product page challenge",
-    description:
-      "Página de producto, realizada para resolver el desafio de frontendmentor https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6 cuenta con diseño adaptable y carrito de compras",
-    skills: ["html", "css", "javascript", "react", "tailwind"],
-    image: `${pro6}`,
-    link: "https://polite-crepe-fdbcd1.netlify.app/",
-    code_link: "https://github.com/samuelfs96/frontend-mentor-ec-product-page"
-  },
-  {
     title: "Página web para Rocket Fired Pizza",
     description:
       "Página web informativa para la pizzería Rocket Fired Pizza, cuenta con diseño adaptable.",
@@ -107,6 +77,15 @@ const proyects = [
     link: "https://cardozoabogados.com.ar/",
     code_link: "https://cardozoabogados.com.ar/estudio/"
   },
+  {
+    title: "Página Web para Sandstone Global",
+    description:
+      "Página web informativa para la empresa SGL MX. Cuenta un diseño adaptado a todos los dispositivos, cambio de idioma, y conexión al blog.",
+    skills: ["html", "css", "javascript", "react", "tailwind", "node"],
+    image: `${pro2}`,
+    link: "https://sgl.com.mx/",
+    code_link: "https://sgl.com.mx/"
+  },
   
   /*{
     title: "Página web para Nave Usados",
@@ -123,16 +102,6 @@ const proyects = [
     link: "https://www.naveusados.com.ar/",
     code_link: "https://www.naveusados.com.ar/"
   },*/
-  
-  {
-    title: "Página Web para Sandstone Global",
-    description:
-      "Página web informativa para la empresa SGL MX. Cuenta un diseño adaptado a todos los dispositivos, cambio de idioma, y conexión al blog.",
-    skills: ["html", "css", "javascript", "react", "tailwind", "node"],
-    image: `${pro2}`,
-    link: "https://sgl.com.mx/",
-    code_link: "https://sgl.com.mx/"
-  },
   
   /*{
     title: "Página web para CJP Telecom",
@@ -163,21 +132,34 @@ const proyects = [
   },
   
   {
-    title: "Lol Champion Stats",
+    title: "MyTaskApp - Django REST framework + (Vite/React/TS)",
     description:
-      "Aplicación para ver datos actualizados del videojuego League of Legends. Consulta la api pública https://ddragon.leagueoflegends.com/, cuenta con filtros, estadísticas y aspectos.",
+      "Esta es una aplicación para crear tareas o notas, tomando como referencia google keep, te permite iniciar sesión con google y apple. Está hecho con django rest framework y react.js.",
     skills: [
       "html",
       "css",
       "javascript",
+      "typescript",
       "react",
-      "nextjs",
-      "chartjs",
-      "material-ui",
+      "tailwind",
+      "vite",
+      "framer-motion",
+      "phyton",
+      "django",
+      "django-rest-framework"
     ],
-    image: `${pro5}`,
-    link: "https://lolchampstats-app.vercel.app/",
-    code_link: "https://github.com/samuelfs96/lolchampstats-app"
+    image: `${pro13}`,
+    link: "https://github.com/samuelfs96/MyTasksApp",
+    code_link: "https://github.com/samuelfs96/MyTasksApp"
+  },
+  {
+    title: "Frontend Mentor - E-commerce product page challenge",
+    description:
+      "Página de producto, realizada para resolver el desafio de frontendmentor https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6 cuenta con diseño adaptable y carrito de compras",
+    skills: ["html", "css", "javascript", "react", "tailwind"],
+    image: `${pro6}`,
+    link: "https://polite-crepe-fdbcd1.netlify.app/",
+    code_link: "https://github.com/samuelfs96/frontend-mentor-ec-product-page"
   },
   {
     title: "Simulador de Pokédex",
@@ -189,15 +171,15 @@ const proyects = [
     code_link: "https://github.com/samuelfs96/personal-pokedex"
   },
   
-  {
-    title: "Good Practices App",
-    description:
-      `Esta es una aplicación para practicar los conceptos y principios de clean architecture, además del manejo de estado con redux.`,
-    skills: ["html", "css", "javascript", "react", "material-ui", "redux", "style-components"],
-    image: `${pro11}`,
-    link: "https://euphonious-sable-a6025e.netlify.app/",
-    code_link: "https://github.com/samuelfs96/good-practices-app"
-  },
+  // {
+  //   title: "Good Practices App",
+  //   description:
+  //     `Esta es una aplicación para practicar los conceptos y principios de clean architecture, además del manejo de estado con redux.`,
+  //   skills: ["html", "css", "javascript", "react", "material-ui", "redux", "style-components"],
+  //   image: `${pro11}`,
+  //   link: "https://euphonious-sable-a6025e.netlify.app/",
+  //   code_link: "https://github.com/samuelfs96/good-practices-app"
+  // },
   
   
 ];

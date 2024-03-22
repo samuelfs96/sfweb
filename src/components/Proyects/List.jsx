@@ -1,8 +1,9 @@
 import { Badge, Card } from "flowbite-react";
-import React, { useCallback, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import proyects from "./proyects-data";
 import github_logo from "../../img/github-mark.png";
 import Bricks from "bricks.js";
+import Skeleton from "../Skeleton/Skeleton";
 
 const badgeColors = [
   "info",
@@ -27,93 +28,117 @@ const sizes = [
 ];
 
 const List = () => {
-  const handleBricksInitialization = useCallback(async () => {
-    await new Promise((resolve) => setTimeout(resolve, 400));
-    const instance = Bricks({
-      container: ".container.items",
-      packed: "data-packed",
-      sizes: sizes,
-    });
-    instance
-      .resize(true) // bind resize handler
-      .pack();
-  }, []);
+  const [loading, setLoading] = useState(true);
+  const handleBricksInitialization = async () => {
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+    setLoading(false);
+  };
 
   useEffect(() => {
     handleBricksInitialization();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  useEffect(() => {
+    if (!loading) {
+      const instance = Bricks({
+        container: ".container.items",
+        packed: "data-packed",
+        sizes: sizes,
+      });
+      instance
+        .resize(true) // bind resize handler
+        .pack();
+    }
+  }, [loading]);
 
   return (
     <div className="container text-sgl-gray mt-24 mb-24">
-      <div className="container items">
-        {proyects.map(
-          ({ title, description, skills, image, link, code_link }, key) => (
-            <div className="max-w-xs" key={key}>
-              <Card
-                className="bg-transparent border-t-0 border-b-2 border-x-0 border-sf-blue 
-                [&>img]:h-[200px] [&>img]:object-cover 
-                [&>img]:object-center rounded-none 
-                [&>img]:rounded-none
-                hover:bg-slate-900
-                hover:-translate-y-2
-                transition-transform
-                "
-                href={link}
-                target="_blank"
-                imgSrc={image}
-              >
-                <h5 className="text-lg font-bold tracking-tight text-white ">
-                  {title}
-                </h5>
-                <div className="flex flex-wrap gap-2">
-                  {skills.map((skill, key) => (
-                    <Badge color={badgeColors[Math.floor(key % badgeColors.length)]} key={key}>
-                      {skill}
-                    </Badge>
-                  ))}
-                </div>
-                <p className="text-xs font-normal text-white break-words">
-                  {description}
-                </p>
-                <div className="flex gap-2 items-center justify-end">
-                  <a
-                    title="Ver demo"
-                    className=" text-white"
-                    href={link}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth="1.5"
-                      stroke="currentColor"
-                      className="w-6 h-6"
+      {loading ? (
+        <div className="container flex flex-wrap gap-2 justify-center">
+          {proyects.map((_item, key) => (
+            <Skeleton style={{ height: "400px", width: "320px" }} key={key} />
+          ))}
+        </div>
+      ) : (
+        <div className="container items">
+          {proyects.map(
+            ({ title, description, skills, image, link, code_link }, key) => (
+              <div className="max-w-xs" key={key}>
+                <Card
+                  className="bg-transparent border-t-0 border-b-2 border-x-0 border-sf-blue 
+              [&>img]:h-[200px] [&>img]:object-cover 
+              [&>img]:object-center rounded-none 
+              [&>img]:rounded-none
+              hover:bg-slate-900
+              hover:-translate-y-2
+              transition-transform
+              "
+                  href={link}
+                  target="_blank"
+                  imgSrc={image}
+                >
+                  <h5 className="text-lg font-bold tracking-tight text-white ">
+                    {title}
+                  </h5>
+                  <div className="flex flex-wrap gap-2">
+                    {skills.map((skill, key) => (
+                      <Badge
+                        color={
+                          badgeColors[Math.floor(key % badgeColors.length)]
+                        }
+                        key={key}
+                      >
+                        {skill}
+                      </Badge>
+                    ))}
+                  </div>
+                  <p className="text-xs font-normal text-white break-words">
+                    {description}
+                  </p>
+                  <div className="flex gap-2 items-center justify-end">
+                    <a
+                      title="Ver demo"
+                      className=" text-white"
+                      href={link}
+                      target="_blank"
+                      rel="noreferrer"
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth="1.5"
+                        stroke="currentColor"
+                        className="w-6 h-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                        />
+                      </svg>
+                    </a>
+                    <a
+                      title="Ver código"
+                      href={code_link}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="w-[27px]"
+                    >
+                      <img
+                        src={github_logo}
+                        alt="github logo"
+                        className="invert"
                       />
-                    </svg>
-                  </a>
-                  <a
-                    title="Ver código"
-                    href={code_link}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="w-[27px]"
-                  >
-                    <img src={github_logo} alt="github logo" className="invert" />
-                  </a>
-                </div>
-              </Card>
-            </div>
-          )
-        )}
-      </div>
+                    </a>
+                  </div>
+                </Card>
+              </div>
+            )
+          )}
+        </div>
+      )}
     </div>
   );
 };
