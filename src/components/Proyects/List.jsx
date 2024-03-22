@@ -57,7 +57,7 @@ const List = () => {
       {loading ? (
         <div className="container flex flex-wrap gap-2 justify-center">
           {proyects.map((_item, key) => (
-            <Skeleton style={{ height: "400px", width: "320px" }} key={key} />
+            <Skeleton style={{ height: "400px", width: "280px" }} key={key} />
           ))}
         </div>
       ) : (
