@@ -12,26 +12,26 @@ import pro10 from "../../img/proyects/pro10.png";
 import pro12 from "../../img/proyects/pro12.png";
 import pro13 from "../../img/proyects/pro13.png";
 import pro14 from "../../img/proyects/pro14.png";
-import pro15 from "../../img/proyects/pro15.png";
+//import pro15 from "../../img/proyects/pro15.png";
 
 const proyects = [
-  {
-    title: "Página web ComparadorTPV",
-    description:
-      "Página web hecha con Wordpress para un cliente con la finalidad de mostrar las mejores tiendas y softwares tpv del mercado con sus respectivas valoraciones",
-    skills: [
-      "html",
-      "css",
-      "javascript",
-      "php",
-      "wordpress",
-      "elementor",
-      "acf",
-    ],
-    image: `${pro15}`,
-    link: "https://comparadortpv.es/",
-    code_link: "https://comparadortpv.es/"
-  },
+  // {
+  //   title: "Página web ComparadorTPV",
+  //   description:
+  //     "Página web hecha con Wordpress para un cliente con la finalidad de mostrar las mejores tiendas y softwares tpv del mercado con sus respectivas valoraciones",
+  //   skills: [
+  //     "html",
+  //     "css",
+  //     "javascript",
+  //     "php",
+  //     "wordpress",
+  //     "elementor",
+  //     "acf",
+  //   ],
+  //   image: `${pro15}`,
+  //   link: "https://comparadortpv.es/",
+  //   code_link: "https://comparadortpv.es/"
+  // },
   {
     title: "Jesús Yuste - Tienda online de collares para perros",
     description:
