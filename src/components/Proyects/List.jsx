@@ -78,7 +78,7 @@ const List = () => {
                   target="_blank"
                   imgSrc={image}
                 >
-                  <h5 className="text-lg font-bold tracking-tight text-white ">
+                  <h5 className="text-2xl font-bold tracking-tight text-white ">
                     {title}
                   </h5>
                   <div className="flex flex-wrap gap-2">
