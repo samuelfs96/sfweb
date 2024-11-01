@@ -5,7 +5,7 @@ import pro4 from "../../img/proyects/pro4.png";
 //import pro5 from "../../img/proyects/pro5.png";
 import pro6 from "../../img/proyects/pro6.png";
 import pro7 from "../../img/proyects/pro7.png";
-import pro8 from "../../img/proyects/pro8.png";
+//import pro8 from "../../img/proyects/pro8.png";
 //import pro9 from "../../img/proyects/pro9.png";
 import pro10 from "../../img/proyects/pro10.png";
 //import pro11 from "../../img/proyects/pro11.png";
@@ -84,19 +84,19 @@ const proyects = [
     link: "https://mci-formation-builder.netlify.app/",
     code_link: "https://github.com/samuelfs96/formation-builder"
   },
-  {
-    title: "Página web para Rocket Fired Pizza",
-    description:
-      "Página web informativa para la pizzería Rocket Fired Pizza, cuenta con diseño adaptable.",
-    skills: [
-      "html",
-      "css",
-      "javascript",
-    ],
-    image: `${pro8}`,
-    link: "https://rocketfiredpizza.com/",
-    code_link: "https://rocketfiredpizza.com/"
-  },
+  // {
+  //   title: "Página web para Rocket Fired Pizza",
+  //   description:
+  //     "Página web informativa para la pizzería Rocket Fired Pizza, cuenta con diseño adaptable.",
+  //   skills: [
+  //     "html",
+  //     "css",
+  //     "javascript",
+  //   ],
+  //   image: `${pro8}`,
+  //   link: "https://rocketfiredpizza.com/",
+  //   code_link: "https://rocketfiredpizza.com/"
+  // },
   {
     title: "Página web para Cardozo Abogados",
     description:
