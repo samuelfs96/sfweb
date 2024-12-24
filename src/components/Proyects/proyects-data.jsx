@@ -1,5 +1,5 @@
 import pro1 from "../../img/proyects/pro1.png";
-import pro2 from "../../img/proyects/pro2.png";
+//import pro2 from "../../img/proyects/pro2.png";
 //import pro3 from "../../img/proyects/pro3.png";
 import pro4 from "../../img/proyects/pro4.png";
 //import pro5 from "../../img/proyects/pro5.png";
@@ -112,15 +112,15 @@ const proyects = [
     link: "https://cardozoabogados.com.ar/",
     code_link: "https://cardozoabogados.com.ar/estudio/"
   },
-  {
-    title: "Página Web para Sandstone Global",
-    description:
-      "Página web informativa para la empresa SGL MX. Cuenta un diseño adaptado a todos los dispositivos, cambio de idioma, y conexión al blog.",
-    skills: ["html", "css", "javascript", "react", "tailwind", "node"],
-    image: `${pro2}`,
-    link: "https://sgl.com.mx/",
-    code_link: "https://sgl.com.mx/"
-  },
+  // {
+  //   title: "Página Web para Sandstone Global",
+  //   description:
+  //     "Página web informativa para la empresa SGL MX. Cuenta un diseño adaptado a todos los dispositivos, cambio de idioma, y conexión al blog.",
+  //   skills: ["html", "css", "javascript", "react", "tailwind", "node"],
+  //   image: `${pro2}`,
+  //   link: "https://sgl.com.mx/",
+  //   code_link: "https://sgl.com.mx/"
+  // },
   
   /*{
     title: "Página web para Nave Usados",
