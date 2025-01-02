@@ -23,7 +23,7 @@ const About = () => {
           <hr className="border-4 border-sf-blue w-[20%] -skew-x-12" />
           <p className="text-white mt-12 mb-24 font-light text-lg">
             Soy Samuel Figueroa, como{" "}
-            <span className="font-bold">Desarrollador Front End especialista en UI/UX</span> me
+            <span className="font-bold">Front-End Dev especialista en UI/UX</span> me
             esfuerzo por combinar mi experiencia y pasión para crear soluciones
             tecnológicas atractivas que sean fácilmente accesibles para el
             usuario a través de interfaces eficaces y de alta calidad. Algunas

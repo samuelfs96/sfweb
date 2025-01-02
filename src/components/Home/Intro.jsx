@@ -14,7 +14,7 @@ const Intro = () => {
           <span className="text-5xl font-bold">Samuel</span><br />
           <span className="text-9xl max-lg:text-8xl max-md:text-7xl font-bold">Figueroa</span><br />
           <span className="text-md max-md:text-sm text-center font-thin tracking-widest border-l-sf-blue border-l-4 pl-4">
-            Desarrollador Front End | UI/UX
+            Front-End Dev | UI/UX
           </span>
         </h1>
         <div className="flex max-md:flex-col max-md:items-center gap-2 justify-center mt-48 max-lg:mt-16">
