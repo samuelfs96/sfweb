@@ -8,10 +8,10 @@ import pro7 from "../../img/proyects/pro7.png";
 //import pro8 from "../../img/proyects/pro8.png";
 //import pro9 from "../../img/proyects/pro9.png";
 import pro10 from "../../img/proyects/pro10.png";
-//import pro11 from "../../img/proyects/pro11.png";
+import pro11 from "../../img/proyects/pro11.png";
 import pro12 from "../../img/proyects/pro12.png";
 import pro13 from "../../img/proyects/pro13.png";
-import pro14 from "../../img/proyects/pro14.png";
+//import pro14 from "../../img/proyects/pro14.png";
 //import pro15 from "../../img/proyects/pro15.png";
 
 const proyects = [
@@ -32,23 +32,23 @@ const proyects = [
   //   link: "https://comparadortpv.es/",
   //   code_link: "https://comparadortpv.es/"
   // },
-  {
-    title: "Jesús Yuste - Tienda online de collares para perros",
-    description:
-      "Tienda online hecha con Wordpress y WooCommerce para un cliente con el objetivo de vender collares de lujo para perros",
-    skills: [
-      "html",
-      "css",
-      "javascript",
-      "php",
-      "wordpress",
-      "elementor",
-      "woocommerce",
-    ],
-    image: `${pro14}`,
-    link: "https://jesusyuste.es/",
-    code_link: "https://jesusyuste.es/"
-  },
+  // {
+  //   title: "Jesús Yuste - Tienda online de collares para perros",
+  //   description:
+  //     "Tienda online hecha con Wordpress y WooCommerce para un cliente con el objetivo de vender collares de lujo para perros",
+  //   skills: [
+  //     "html",
+  //     "css",
+  //     "javascript",
+  //     "php",
+  //     "wordpress",
+  //     "elementor",
+  //     "woocommerce",
+  //   ],
+  //   image: `${pro14}`,
+  //   link: "https://jesusyuste.es/",
+  //   code_link: "https://jesusyuste.es/"
+  // },
   {
     title: "Champions League Matches Generator",
     description:
@@ -97,6 +97,15 @@ const proyects = [
   //   link: "https://rocketfiredpizza.com/",
   //   code_link: "https://rocketfiredpizza.com/"
   // },
+  {
+    title: "Frontend Mentor - E-commerce product page challenge",
+    description:
+      "Página de producto, realizada para resolver el desafio de frontendmentor https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6 cuenta con diseño adaptable y carrito de compras",
+    skills: ["html", "css", "javascript", "react", "tailwind"],
+    image: `${pro6}`,
+    link: "https://polite-crepe-fdbcd1.netlify.app/",
+    code_link: "https://github.com/samuelfs96/frontend-mentor-ec-product-page"
+  },
   {
     title: "Página web para Cardozo Abogados",
     description:
@@ -188,15 +197,6 @@ const proyects = [
     code_link: "https://github.com/samuelfs96/MyTasksApp"
   },
   {
-    title: "Frontend Mentor - E-commerce product page challenge",
-    description:
-      "Página de producto, realizada para resolver el desafio de frontendmentor https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6 cuenta con diseño adaptable y carrito de compras",
-    skills: ["html", "css", "javascript", "react", "tailwind"],
-    image: `${pro6}`,
-    link: "https://polite-crepe-fdbcd1.netlify.app/",
-    code_link: "https://github.com/samuelfs96/frontend-mentor-ec-product-page"
-  },
-  {
     title: "Simulador de Pokédex",
     description:
       "Simulador de Pokédex completa con datos provenientes de la pokeapi: https://pokeapi.co/, cuenta con listado, controles y banda sonora.",
@@ -206,15 +206,15 @@ const proyects = [
     code_link: "https://github.com/samuelfs96/personal-pokedex"
   },
   
-  // {
-  //   title: "Good Practices App",
-  //   description:
-  //     `Esta es una aplicación para practicar los conceptos y principios de clean architecture, además del manejo de estado con redux.`,
-  //   skills: ["html", "css", "javascript", "react", "material-ui", "redux", "style-components"],
-  //   image: `${pro11}`,
-  //   link: "https://euphonious-sable-a6025e.netlify.app/",
-  //   code_link: "https://github.com/samuelfs96/good-practices-app"
-  // },
+  {
+    title: "Good Practices App",
+    description:
+      `Esta es una aplicación para practicar los conceptos y principios de clean architecture, además del manejo de estado con redux.`,
+    skills: ["html", "css", "javascript", "react", "material-ui", "redux", "style-components"],
+    image: `${pro11}`,
+    link: "https://euphonious-sable-a6025e.netlify.app/",
+    code_link: "https://github.com/samuelfs96/good-practices-app"
+  },
   
   
 ];
