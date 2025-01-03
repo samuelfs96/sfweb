@@ -29,7 +29,7 @@ const Contact = () => {
           <img src={email} alt="email" className='w-20 invert' />
           <div>
             <h2 className="text-xl font-bold text-white uppercase">Email</h2>
-            <p className="font-light text-white">sa.figuera1908@gmail.com</p>
+            <p className="font-light text-white">sa.figueroa1908@gmail.com</p>
           </div>
         </div>
         {/* <div className="flex items-center gap-4 px-4 max-lg:px-12 max-lg:py-3 max-lg:bg-sf-blue cursor-pointer hover:bg-sf-blue -skew-x-12 [&>*]:skew-x-12 transition-all" onClick={() => window.open(pdf_file)}>
