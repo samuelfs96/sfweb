@@ -2,7 +2,7 @@ import pro1 from "../../img/proyects/pro1.png";
 //import pro2 from "../../img/proyects/pro2.png";
 //import pro3 from "../../img/proyects/pro3.png";
 import pro4 from "../../img/proyects/pro4.png";
-//import pro5 from "../../img/proyects/pro5.png";
+import pro5 from "../../img/proyects/pro5.png";
 import pro6 from "../../img/proyects/pro6.png";
 import pro7 from "../../img/proyects/pro7.png";
 //import pro8 from "../../img/proyects/pro8.png";
@@ -105,6 +105,25 @@ const proyects = [
     image: `${pro6}`,
     link: "https://polite-crepe-fdbcd1.netlify.app/",
     code_link: "https://github.com/samuelfs96/frontend-mentor-ec-product-page"
+  },
+  {
+    title: "LolChampionStats - League of Legends champions data",
+    description:
+      `Aplicación web hecha con react/next.js con motivos educativos y recreacional, consulta a la api pública de leagueoflegends https://developer.riotgames.com/docs/lol , muestra listado completo de campeones, 
+      filtros de búsqueda (tabs y search field), página individual de cada campeón (img, description, lore, stats, skins), haciendo uso del ssr y buenas practicas los tiempos de carga son bastante rápidos`,
+    skills: [
+      "html",
+      "css",
+      "javascript",
+      "react",
+      "next",
+      "ssr",
+      "mui",
+      "react-chartjs",
+    ],
+    image: `${pro5}`,
+    link: "https://lolchampstats-app.vercel.app/",
+    code_link: "https://github.com/samuelfs96/lolchampstats-app"
   },
   {
     title: "Página web para Cardozo Abogados",
