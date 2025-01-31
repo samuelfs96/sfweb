@@ -74,12 +74,13 @@ const List = () => {
               hover:-translate-y-2
               transition-transform
               "
-                  href={link}
                   target="_blank"
                   imgSrc={image}
                 >
                   <h5 className="text-2xl font-bold tracking-tight text-white ">
-                    {title}
+                    <a href={link} target="_blank" rel="noreferrer">
+                      {title}
+                    </a>
                   </h5>
                   <div className="flex flex-wrap gap-2">
                     {skills.map((skill, key) => (
