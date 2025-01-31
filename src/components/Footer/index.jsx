@@ -20,7 +20,7 @@ const Index = () => {
         <Footer.Copyright
           href="/"
           by="Samuel Figueroa"
-          year={2024}
+          year={2025}
           className='text-white'
         />
         </div>

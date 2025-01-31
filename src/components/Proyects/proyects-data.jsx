@@ -13,6 +13,7 @@ import pro12 from "../../img/proyects/pro12.png";
 import pro13 from "../../img/proyects/pro13.png";
 //import pro14 from "../../img/proyects/pro14.png";
 //import pro15 from "../../img/proyects/pro15.png";
+import pro16 from "../../img/proyects/pro16.png";
 
 const proyects = [
   // {
@@ -84,6 +85,22 @@ const proyects = [
     link: "https://mci-formation-builder.netlify.app/",
     code_link: "https://github.com/samuelfs96/formation-builder"
   },
+  {
+    title: "Página web dautonomos.io",
+    description:
+      "Diseño y desarrollo de página web hecha con Wordpress para un cliente con la finalidad de dar a conocer su aplicación móvil que ayuda a pagar las cuotas de autónomos en españa. Diseño moderno y adaptable",
+    skills: [
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "elementor",
+      "acf",
+    ],
+    image: `${pro16}`,
+    link: "https://dautonomos.io/",
+  },
   // {
   //   title: "Página web para Rocket Fired Pizza",
   //   description:
@@ -138,7 +155,6 @@ const proyects = [
     ],
     image: `${pro10}`,
     link: "https://cardozoabogados.com.ar/",
-    code_link: "https://cardozoabogados.com.ar/estudio/"
   },
   // {
   //   title: "Página Web para Sandstone Global",

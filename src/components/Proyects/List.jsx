@@ -119,19 +119,21 @@ const List = () => {
                         />
                       </svg>
                     </a>
-                    <a
-                      title="Ver código"
-                      href={code_link}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="w-[27px]"
-                    >
-                      <img
-                        src={github_logo}
-                        alt="github logo"
-                        className="invert"
-                      />
-                    </a>
+                    {code_link && (
+                      <a
+                        title="Ver código"
+                        href={code_link}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="w-[27px]"
+                      >
+                        <img
+                          src={github_logo}
+                          alt="github logo"
+                          className="invert"
+                        />
+                      </a>
+                    )}
                   </div>
                 </Card>
               </div>
