@@ -1,19 +1,15 @@
 import pro1 from "../../img/proyects/pro1.png";
-//import pro2 from "../../img/proyects/pro2.png";
-//import pro3 from "../../img/proyects/pro3.png";
 import pro4 from "../../img/proyects/pro4.png";
 import pro5 from "../../img/proyects/pro5.png";
 import pro6 from "../../img/proyects/pro6.png";
 import pro7 from "../../img/proyects/pro7.png";
-//import pro8 from "../../img/proyects/pro8.png";
-//import pro9 from "../../img/proyects/pro9.png";
 import pro10 from "../../img/proyects/pro10.png";
 import pro11 from "../../img/proyects/pro11.png";
 import pro12 from "../../img/proyects/pro12.png";
 import pro13 from "../../img/proyects/pro13.png";
-//import pro14 from "../../img/proyects/pro14.png";
 //import pro15 from "../../img/proyects/pro15.png";
 import pro16 from "../../img/proyects/pro16.png";
+import pro17 from "../../img/proyects/pro17.png";
 
 const proyects = [
   // {
@@ -32,23 +28,6 @@ const proyects = [
   //   image: `${pro15}`,
   //   link: "https://comparadortpv.es/",
   //   code_link: "https://comparadortpv.es/"
-  // },
-  // {
-  //   title: "Jesús Yuste - Tienda online de collares para perros",
-  //   description:
-  //     "Tienda online hecha con Wordpress y WooCommerce para un cliente con el objetivo de vender collares de lujo para perros",
-  //   skills: [
-  //     "html",
-  //     "css",
-  //     "javascript",
-  //     "php",
-  //     "wordpress",
-  //     "elementor",
-  //     "woocommerce",
-  //   ],
-  //   image: `${pro14}`,
-  //   link: "https://jesusyuste.es/",
-  //   code_link: "https://jesusyuste.es/"
   // },
   {
     title: "Champions League Matches Generator",
@@ -86,6 +65,18 @@ const proyects = [
     code_link: "https://github.com/samuelfs96/formation-builder"
   },
   {
+    title: "Diseño de prototipo web interactivo",
+    description:
+      "Prototipo de página web hecho en figma, diseño desde cero tomando en cuenta los requerimientos del cliente y su identidad visual",
+    skills: [
+      "Figma",
+      "UI/UX",
+      "Web design"
+    ],
+    image: `${pro17}`,
+    link: "https://www.figma.com/proto/gNLt4AvhJDvEShcna0xt4E/GP-VD?t=p9ffYWquRFW5pIiS-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=1-1358",
+  },
+  {
     title: "Página web dautonomos.io",
     description:
       "Diseño y desarrollo de página web hecha con Wordpress para un cliente con la finalidad de dar a conocer su aplicación móvil que ayuda a pagar las cuotas de autónomos en españa. Diseño moderno y adaptable",
@@ -101,19 +92,6 @@ const proyects = [
     image: `${pro16}`,
     link: "https://dautonomos.io/",
   },
-  // {
-  //   title: "Página web para Rocket Fired Pizza",
-  //   description:
-  //     "Página web informativa para la pizzería Rocket Fired Pizza, cuenta con diseño adaptable.",
-  //   skills: [
-  //     "html",
-  //     "css",
-  //     "javascript",
-  //   ],
-  //   image: `${pro8}`,
-  //   link: "https://rocketfiredpizza.com/",
-  //   code_link: "https://rocketfiredpizza.com/"
-  // },
   {
     title: "Frontend Mentor - E-commerce product page challenge",
     description:
@@ -156,42 +134,6 @@ const proyects = [
     image: `${pro10}`,
     link: "https://cardozoabogados.com.ar/",
   },
-  // {
-  //   title: "Página Web para Sandstone Global",
-  //   description:
-  //     "Página web informativa para la empresa SGL MX. Cuenta un diseño adaptado a todos los dispositivos, cambio de idioma, y conexión al blog.",
-  //   skills: ["html", "css", "javascript", "react", "tailwind", "node"],
-  //   image: `${pro2}`,
-  //   link: "https://sgl.com.mx/",
-  //   code_link: "https://sgl.com.mx/"
-  // },
-  
-  /*{
-    title: "Página web para Nave Usados",
-    description:
-      "Página web para la empresa Nave Usados, compra y venta de vehiculos, cuenta con diseño adaptable.",
-    skills: [
-      "html",
-      "css",
-      "javascript",
-      "php",
-      "mysql"
-    ],
-    image: `${pro9}`,
-    link: "https://www.naveusados.com.ar/",
-    code_link: "https://www.naveusados.com.ar/"
-  },*/
-  
-  /*{
-    title: "Página web para CJP Telecom",
-    description:
-      "Página web informativa para la empresa CJP Telecom MX, diseño adaptable.",
-    skills: ["html", "css", "javascript", "react", "tailwind"],
-    image: `${pro3}`,
-    link: "https://cjp.mx/",
-    code_link: "https://cjp.mx/"
-  },*/
-  
   {
     title: "Prueba Técnica(workflow) - Librería react-flow",
     description:
@@ -209,7 +151,6 @@ const proyects = [
     link: "https://snazzy-kleicha-e00173.netlify.app/",
     code_link: "https://github.com/samuelfs96/cpanax-test"
   },
-  
   {
     title: "MyTaskApp - Django REST framework + (Vite/React/TS)",
     description:
@@ -240,7 +181,6 @@ const proyects = [
     link: "https://magnificent-liger-2d9dfc.netlify.app/",
     code_link: "https://github.com/samuelfs96/personal-pokedex"
   },
-  
   {
     title: "Good Practices App",
     description:
@@ -250,8 +190,6 @@ const proyects = [
     link: "https://euphonious-sable-a6025e.netlify.app/",
     code_link: "https://github.com/samuelfs96/good-practices-app"
   },
-  
-  
 ];
 
 export default proyects;
