@@ -65,16 +65,23 @@ const proyects = [
     code_link: "https://github.com/samuelfs96/formation-builder"
   },
   {
-    title: "Diseño de prototipo web interactivo",
+    title: "Página web Grupo Vidahorro",
     description:
-      "Prototipo de página web hecho en figma, diseño desde cero tomando en cuenta los requerimientos del cliente y su identidad visual",
+      "Diseño y desarrollo de página web hecha con Wordpress para un cliente con la finalidad de dar a conocer sus servicios en españa. Diseño moderno y adaptable según los requerimientos del cliente y su identidad visual",
     skills: [
-      "Figma",
+      "html",
+      "css",
+      "javascript",
+      "php",
+      "wordpress",
+      "elementor",
+      "acf",
       "UI/UX",
-      "Web design"
+      "photoshop",
+      "web design"
     ],
     image: `${pro17}`,
-    link: "https://www.figma.com/proto/gNLt4AvhJDvEShcna0xt4E/GP-VD?t=p9ffYWquRFW5pIiS-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=1-1358",
+    link: "https://grupovidahorro.com/",
   },
   {
     title: "Página web dautonomos.io",
@@ -88,6 +95,9 @@ const proyects = [
       "wordpress",
       "elementor",
       "acf",
+      "UI/UX",
+      "photoshop",
+      "web design"
     ],
     image: `${pro16}`,
     link: "https://dautonomos.io/",
