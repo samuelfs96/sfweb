@@ -2,7 +2,7 @@ import { Navbar } from "flowbite-react";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 
-const SECTIONS = ["inicio", "portafolio", "contacto"];
+const SECTIONS = ["home", "portfolio", "contact"];
 
 const Index = () => {
   const [activeBlur, setActiveBlur] = useState(false);

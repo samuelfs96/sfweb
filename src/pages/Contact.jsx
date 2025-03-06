@@ -5,13 +5,13 @@ import email from '../img/email.png'
 
 const Contact = () => {
   return (
-    <section id="contacto" className='py-16 bg-gradient-to-tl from-black to-[#0f172a] max-xs:container'>
+    <section id="contact" className='py-16 bg-gradient-to-tl from-black to-[#0f172a] max-xs:container'>
       <div className="flex items-center flex-col my-16">
       <div>
         <h1
           className=" text-white text-4xl font-bold m-2 uppercase"
         >
-          Datos de Contacto
+          Contact information
         </h1>
         <hr className="border-4 border-sf-blue w-[60%] -skew-x-12" />
       </div>
@@ -21,7 +21,7 @@ const Contact = () => {
         <div className="flex items-center gap-4 pb-4">
           <img src={phone} alt="phone" className='w-20 invert' />
           <div>
-            <h2 className="text-xl font-bold text-white uppercase">Teléfono</h2>
+            <h2 className="text-xl font-bold text-white uppercase">Phone</h2>
             <p className="font-light text-white">+554199844-7540</p>
           </div>
         </div>

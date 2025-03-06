@@ -18,21 +18,18 @@ const About = () => {
       <div className="w-[60%] max-md:w-full">
         <div className="max-md:container">
           <h1 className="text-white text-4xl font-bold m-2 mt-20 uppercase">
-            Acerca de mí
+            About me
           </h1>
           <hr className="border-4 border-sf-blue w-[20%] -skew-x-12" />
           <p className="text-white mt-12 mb-24 font-light text-lg">
-            Soy Samuel Figueroa, como{" "}
-            <span className="font-bold">Front-End Dev especialista en UI/UX</span> me
-            esfuerzo por combinar mi experiencia y pasión para crear soluciones
-            tecnológicas atractivas que sean fácilmente accesibles para el
-            usuario a través de interfaces eficaces y de alta calidad. Algunas
-            de las tecnologías que manejo mas destacadas son:{" "}
-            <span className="font-bold">
-              html, css, javascript, php, wordpress, reactjs, nextjs,
-              tailwind, materialui, figma, photoshop
-            </span>{" "}
-            entre otras... Siempre estoy en constante aprendizaje.
+            My name is Samuel Figueroa, and I'm a{" "}
+            <span className="font-bold">Front-End Developer</span> with a focus
+            on <span className="font-bold">UI/UX</span>. I'm driven by a passion
+            to merge my technical skills with creative solutions, crafting
+            seamless and accessible user experiences through superior
+            interfaces. My proficiency extends to technologies like HTML, CSS,
+            JavaScript, PHP, WordPress, ReactJS, NextJS, Tailwind, MaterialUI,
+            Figma, and Photoshop.
           </p>
         </div>
       </div>

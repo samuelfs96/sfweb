@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 const Intro = () => {
   return (
-    <div id="inicio" className="h-[100vh] flex items-center justify-center">
+    <div id="home" className="h-[100vh] flex items-center justify-center">
       <div
         className="bg-bg1 bg-cover h-full w-full"
         style={{ filter: "brightness(0.2)" }}
@@ -18,24 +18,24 @@ const Intro = () => {
           </span>
         </h1>
         <div className="flex max-md:flex-col max-md:items-center gap-2 justify-center mt-48 max-lg:mt-16">
-          <Link to="portafolio" smooth>
+          <Link to="portfolio" smooth>
             <button
               style={{
                 animation: "my-pulse 2s infinite",
               }}
               className="bg-sf-blue text-white px-10 py-3 uppercase rounded-full text-sm border-2 border-sf-blue"
             >
-              <div>Ver Portafolio</div>
+              <div>View Portfolio</div>
             </button>
           </Link>
-          <Link to="contacto" smooth>
+          <Link to="contact" smooth>
             <button
               style={{
                 animation: "my-pulse 2s infinite",
               }}
               className=" text-white px-10 py-3 uppercase rounded-full text-sm border-2 border-sf-blue hover:bg-sf-blue transition-all"
             >
-              <div>Contacto</div>
+              <div>Contact</div>
             </button>
           </Link>
         </div>
