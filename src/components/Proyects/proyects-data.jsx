@@ -32,7 +32,7 @@ const proyects = [
   {
     title: "Champions League Matches Generator",
     description:
-      "Esta es una aplicación hecha con react.js y tailwind, permite generar partidos de la UEFA Champions League con resultados basados ​​en la forma actual de cada equipo.",
+      "Developed using React.js and Tailwind, this application simulates UEFA Champions League fixtures, predicting outcomes by analyzing the current performance metrics of participating teams.",
     skills: [
       "html",
       "css",
@@ -50,7 +50,7 @@ const proyects = [
   {
     title: "Manchester City - Formation Builder",
     description:
-      "Esta es una aplicación hecha con react, con el objetivo de probar la librería @formkit/drag-and-drop creando una interfaz basada en la ui de las retransmisiones oficiales de la premier league, permite crear una formación con los jugadores del machester city.",
+      "Developed using React, this application serves as a demonstration of the @formkit/drag-and-drop library's capabilities. It features an interface replicating the official Premier League broadcast user interface, enabling the creation of Manchester City player formations.",
     skills: [
       "html",
       "css",
@@ -65,9 +65,9 @@ const proyects = [
     code_link: "https://github.com/samuelfs96/formation-builder"
   },
   {
-    title: "Página web Grupo Vidahorro",
+    title: "Grupo Vidahorro - Website",
     description:
-      "Diseño y desarrollo de página web hecha con Wordpress para un cliente con la finalidad de dar a conocer sus servicios en españa. Diseño moderno y adaptable según los requerimientos del cliente y su identidad visual",
+      "Design and development of a WordPress website for a client, aimed at showcasing their services in Spain. Modern and responsive design tailored to the client's requirements and visual identity.",
     skills: [
       "html",
       "css",
@@ -84,9 +84,9 @@ const proyects = [
     link: "https://grupovidahorro.com/",
   },
   {
-    title: "Página web dautonomos.io",
+    title: "dautonomos.io - Website",
     description:
-      "Diseño y desarrollo de página web hecha con Wordpress para un cliente con la finalidad de dar a conocer su aplicación móvil que ayuda a pagar las cuotas de autónomos en españa. Diseño moderno y adaptable",
+      "Developed a WordPress website, including design and implementation, for a client aiming to showcase their mobile app that simplifies social security contributions for self-employed individuals in Spain. The design is modern and fully responsive.",
     skills: [
       "html",
       "css",
@@ -105,7 +105,7 @@ const proyects = [
   {
     title: "Frontend Mentor - E-commerce product page challenge",
     description:
-      "Página de producto, realizada para resolver el desafio de frontendmentor https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6 cuenta con diseño adaptable y carrito de compras",
+      "This product page was created to fulfill the requirements of the Frontendmentor challenge found at https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6. It includes a responsive layout and a fully functional shopping cart",
     skills: ["html", "css", "javascript", "react", "tailwind"],
     image: `${pro6}`,
     link: "https://polite-crepe-fdbcd1.netlify.app/",
@@ -114,8 +114,7 @@ const proyects = [
   {
     title: "LolChampionStats - League of Legends champions data",
     description:
-      `Aplicación web hecha con react/next.js con motivos educativos y recreacional, consulta a la api pública de leagueoflegends https://developer.riotgames.com/docs/lol , muestra listado completo de campeones, 
-      filtros de búsqueda (tabs y search field), página individual de cada campeón (img, description, lore, stats, skins), haciendo uso del ssr y buenas practicas los tiempos de carga son bastante rápidos`,
+      `This React/Next.js web application, developed for both educational and recreational use, leverages the League of Legends public API https://developer.riotgames.com/docs/lol to provide a full champion roster, advanced search filters (tabbed and text-based), and detailed champion profiles (images, descriptions, lore, stats, skins). Implemented with server-side rendering (SSR) and adhering to best development practices, it ensures exceptionally fast loading speeds.`,
     skills: [
       "html",
       "css",
@@ -131,9 +130,9 @@ const proyects = [
     code_link: "https://github.com/samuelfs96/lolchampstats-app"
   },
   {
-    title: "Página web para Cardozo Abogados",
+    title: "Cardozo Abogados - Website",
     description:
-      "Página web informativa para el estudio jurídico Cardozo Abogados, cuenta con blog de noticias y diseño adaptable.",
+      "An informative website developed for the Cardozo Abogados law firm, which includes a news blog and a fully responsive layout.",
     skills: [
       "html",
       "css",
@@ -145,9 +144,9 @@ const proyects = [
     link: "https://cardozoabogados.com.ar/",
   },
   {
-    title: "Prueba Técnica(workflow) - Librería react-flow",
+    title: "Technical Test (Workflow) - React Flow Library",
     description:
-      "Prueba técnica realizada para validar conocimientos, cuenta con listado de productos, usuarios, paginación y un workflow creado con la libreria react flow.",
+      "This technical assessment was performed to validate skills, including product and user listings, pagination functionality, and a workflow implementation using the React Flow library.",
     skills: [
       "html",
       "css",
@@ -164,7 +163,7 @@ const proyects = [
   {
     title: "MyTaskApp - Django REST framework + (Vite/React/TS)",
     description:
-      "Esta es una aplicación para crear tareas o notas, tomando como referencia google keep, te permite iniciar sesión con google y apple. Está hecho con django rest framework y react.js.",
+      "A task and note management application, designed with a user experience similar to Google Keep, supporting Google and Apple authentication. It's implemented with Django REST Framework for the API and React.js for the client-side interface.",
     skills: [
       "html",
       "css",
@@ -183,9 +182,9 @@ const proyects = [
     code_link: "https://github.com/samuelfs96/MyTasksApp"
   },
   {
-    title: "Simulador de Pokédex",
+    title: "Pokédex Simulator",
     description:
-      "Simulador de Pokédex completa con datos provenientes de la pokeapi: https://pokeapi.co/, cuenta con listado, controles y banda sonora.",
+      "A full-featured Pokédex simulator, powered by data fetched from the PokeAPI: https://pokeapi.co/. It provides a complete list, intuitive controls, and integrated soundtrack.",
     skills: ["html", "css", "javascript", "react", "tailwind"],
     image: `${pro1}`,
     link: "https://magnificent-liger-2d9dfc.netlify.app/",
@@ -194,7 +193,7 @@ const proyects = [
   {
     title: "Good Practices App",
     description:
-      `Esta es una aplicación para practicar los conceptos y principios de clean architecture, además del manejo de estado con redux.`,
+      `Developed as a learning tool, this application aims to exercise the concepts and principles of clean architecture, along with state management implementation using Redux.`,
     skills: ["html", "css", "javascript", "react", "material-ui", "redux", "style-components"],
     image: `${pro11}`,
     link: "https://euphonious-sable-a6025e.netlify.app/",
