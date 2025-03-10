@@ -82,6 +82,7 @@ const proyects = [
     ],
     image: `${pro17}`,
     link: "https://grupovidahorro.com/",
+    figma_pro: "https://www.figma.com/proto/gNLt4AvhJDvEShcna0xt4E/GP-VD?node-id=10-1503&p=f&t=QcEm0yQHxFSqqw3s-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
   },
   {
     title: "dautonomos.io - Website",
@@ -101,6 +102,7 @@ const proyects = [
     ],
     image: `${pro16}`,
     link: "https://dautonomos.io/",
+    figma_pro: "https://www.figma.com/proto/1K56f0LHDnvZRYI5erAZ0o/Dautonomo-website?t=WLMyNd6F3rlMkUcc-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=1-3"
   },
   {
     title: "Frontend Mentor - E-commerce product page challenge",
