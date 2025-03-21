@@ -118,8 +118,8 @@ const proyects = [
       "web design"
     ],
     image: `${pro18}`,
-    link: "https://www.figma.com/proto/dvdX2whrVF2WYKsa00puaE/MEATBURGER-WEBSITE?node-id=2-3&p=f&t=XIadBIhQcnPfQnhN-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
-    figma_pro: "https://www.figma.com/proto/dvdX2whrVF2WYKsa00puaE/MEATBURGER-WEBSITE?node-id=2-3&p=f&t=XIadBIhQcnPfQnhN-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
+    link: "https://www.figma.com/proto/HtzbchFBaX3Bx9hPI72K9J/MB-WEBSITE?node-id=1-73&p=f&t=Im2Ox7TPv6BxUNVv-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+    figma_pro: "https://www.figma.com/proto/HtzbchFBaX3Bx9hPI72K9J/MB-WEBSITE?node-id=1-73&p=f&t=Im2Ox7TPv6BxUNVv-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
   },
   {
     title: "Frontend Mentor - E-commerce product page challenge",
