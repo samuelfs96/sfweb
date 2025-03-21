@@ -3,13 +3,14 @@ import pro4 from "../../img/proyects/pro4.png";
 import pro5 from "../../img/proyects/pro5.png";
 import pro6 from "../../img/proyects/pro6.png";
 import pro7 from "../../img/proyects/pro7.png";
-import pro10 from "../../img/proyects/pro10.png";
+//import pro10 from "../../img/proyects/pro10.png";
 import pro11 from "../../img/proyects/pro11.png";
 import pro12 from "../../img/proyects/pro12.png";
 import pro13 from "../../img/proyects/pro13.png";
 //import pro15 from "../../img/proyects/pro15.png";
 import pro16 from "../../img/proyects/pro16.png";
 import pro17 from "../../img/proyects/pro17.png";
+import pro18 from "../../img/proyects/pro18.png";
 
 const proyects = [
   // {
@@ -77,6 +78,7 @@ const proyects = [
       "elementor",
       "acf",
       "UI/UX",
+      "figma",
       "photoshop",
       "web design"
     ],
@@ -97,12 +99,27 @@ const proyects = [
       "elementor",
       "acf",
       "UI/UX",
+      "figma",
       "photoshop",
       "web design"
     ],
     image: `${pro16}`,
     link: "https://dautonomos.io/",
     figma_pro: "https://www.figma.com/proto/1K56f0LHDnvZRYI5erAZ0o/Dautonomo-website?t=WLMyNd6F3rlMkUcc-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=1-3"
+  },
+  {
+    title: "Meat Burger - Website prototype",
+    description:
+      "Website prototype developed in Figma, with a custom design and identity, optimized for fast food establishments specializing in hamburgers, pizzas, and similar offerings.",
+    skills: [
+      "UI/UX",
+      "figma",
+      "photoshop",
+      "web design"
+    ],
+    image: `${pro18}`,
+    link: "https://www.figma.com/proto/dvdX2whrVF2WYKsa00puaE/MEATBURGER-WEBSITE?node-id=2-3&p=f&t=XIadBIhQcnPfQnhN-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+    figma_pro: "https://www.figma.com/proto/dvdX2whrVF2WYKsa00puaE/MEATBURGER-WEBSITE?node-id=2-3&p=f&t=XIadBIhQcnPfQnhN-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
   },
   {
     title: "Frontend Mentor - E-commerce product page challenge",
@@ -131,20 +148,20 @@ const proyects = [
     link: "https://lolchampstats-app.vercel.app/",
     code_link: "https://github.com/samuelfs96/lolchampstats-app"
   },
-  {
-    title: "Cardozo Abogados - Website",
-    description:
-      "An informative website developed for the Cardozo Abogados law firm, which includes a news blog and a fully responsive layout.",
-    skills: [
-      "html",
-      "css",
-      "javascript",
-      "php",
-      "wordpress",
-    ],
-    image: `${pro10}`,
-    link: "https://cardozoabogados.com.ar/",
-  },
+  // {
+  //   title: "Cardozo Abogados - Website",
+  //   description:
+  //     "An informative website developed for the Cardozo Abogados law firm, which includes a news blog and a fully responsive layout.",
+  //   skills: [
+  //     "html",
+  //     "css",
+  //     "javascript",
+  //     "php",
+  //     "wordpress",
+  //   ],
+  //   image: `${pro10}`,
+  //   link: "https://cardozoabogados.com.ar/",
+  // },
   {
     title: "Technical Test (Workflow) - React Flow Library",
     description:
