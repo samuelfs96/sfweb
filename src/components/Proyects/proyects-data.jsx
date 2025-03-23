@@ -11,6 +11,7 @@ import pro13 from "../../img/proyects/pro13.png";
 import pro16 from "../../img/proyects/pro16.png";
 import pro17 from "../../img/proyects/pro17.png";
 import pro18 from "../../img/proyects/pro18.png";
+import pro19 from "../../img/proyects/pro19.png";
 
 const proyects = [
   // {
@@ -106,6 +107,20 @@ const proyects = [
     image: `${pro16}`,
     link: "https://dautonomos.io/",
     figma_pro: "https://www.figma.com/proto/1K56f0LHDnvZRYI5erAZ0o/Dautonomo-website?t=WLMyNd6F3rlMkUcc-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=1-3"
+  },
+  {
+    title: "HeadPhones - Website prototype",
+    description:
+      "Figma-designed website prototype for the promotion or sale of electronic accessories, such as wireless headphones.",
+    skills: [
+      "UI/UX",
+      "figma",
+      "photoshop",
+      "web design"
+    ],
+    image: `${pro19}`,
+    link: "https://www.figma.com/proto/3qbaXeTi3tNVq6GEBjMQrE/HeadPhones---Concept-Web?node-id=1-2&p=f&t=VkINjtzD6QB758Ah-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+    figma_pro: "https://www.figma.com/proto/3qbaXeTi3tNVq6GEBjMQrE/HeadPhones---Concept-Web?node-id=1-2&p=f&t=VkINjtzD6QB758Ah-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
   },
   {
     title: "Meat Burger - Website prototype",
