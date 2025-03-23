@@ -24,8 +24,8 @@ const sizes = [
   { mq: "768px", columns: 2, gutter: 10 },
   { mq: "900px", columns: 2, gutter: 10 },
   { mq: "1024px", columns: 3, gutter: 10 },
-  { mq: "1280px", columns: 3, gutter: 10 },
-  { mq: "1440px", columns: 3, gutter: 10 },
+  { mq: "1280px", columns: 4, gutter: 10 },
+  { mq: "1440px", columns: 4, gutter: 10 },
 ];
 
 const List = () => {
