@@ -137,15 +137,6 @@ const proyects = [
     figma_pro: "https://www.figma.com/proto/HtzbchFBaX3Bx9hPI72K9J/MB-WEBSITE?node-id=1-73&p=f&t=Im2Ox7TPv6BxUNVv-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
   },
   {
-    title: "Frontend Mentor - E-commerce product page challenge",
-    description:
-      "This product page was created to fulfill the requirements of the Frontendmentor challenge found at https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6. It includes a responsive layout and a fully functional shopping cart",
-    skills: ["html", "css", "javascript", "react", "tailwind"],
-    image: `${pro6}`,
-    link: "https://polite-crepe-fdbcd1.netlify.app/",
-    code_link: "https://github.com/samuelfs96/frontend-mentor-ec-product-page"
-  },
-  {
     title: "LolChampionStats - League of Legends champions data",
     description:
       `This React/Next.js web application, developed for both educational and recreational use, leverages the League of Legends public API https://developer.riotgames.com/docs/lol to provide a full champion roster, advanced search filters (tabbed and text-based), and detailed champion profiles (images, descriptions, lore, stats, skins). Implemented with server-side rendering (SSR) and adhering to best development practices, it ensures exceptionally fast loading speeds.`,
@@ -163,20 +154,6 @@ const proyects = [
     link: "https://lolchampstats-app.vercel.app/",
     code_link: "https://github.com/samuelfs96/lolchampstats-app"
   },
-  // {
-  //   title: "Cardozo Abogados - Website",
-  //   description:
-  //     "An informative website developed for the Cardozo Abogados law firm, which includes a news blog and a fully responsive layout.",
-  //   skills: [
-  //     "html",
-  //     "css",
-  //     "javascript",
-  //     "php",
-  //     "wordpress",
-  //   ],
-  //   image: `${pro10}`,
-  //   link: "https://cardozoabogados.com.ar/",
-  // },
   {
     title: "Technical Test (Workflow) - React Flow Library",
     description:
@@ -191,9 +168,32 @@ const proyects = [
       "react-flow",
     ],
     image: `${pro4}`,
-    link: "https://snazzy-kleicha-e00173.netlify.app/",
+    link: "https://snazzy-kleicha-e00173.netlify.app/flow",
     code_link: "https://github.com/samuelfs96/cpanax-test"
   },
+  {
+    title: "Frontend Mentor - E-commerce product page challenge",
+    description:
+      "This product page was created to fulfill the requirements of the Frontendmentor challenge found at https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6. It includes a responsive layout and a fully functional shopping cart",
+    skills: ["html", "css", "javascript", "react", "tailwind"],
+    image: `${pro6}`,
+    link: "https://polite-crepe-fdbcd1.netlify.app/",
+    code_link: "https://github.com/samuelfs96/frontend-mentor-ec-product-page"
+  },
+  // {
+  //   title: "Cardozo Abogados - Website",
+  //   description:
+  //     "An informative website developed for the Cardozo Abogados law firm, which includes a news blog and a fully responsive layout.",
+  //   skills: [
+  //     "html",
+  //     "css",
+  //     "javascript",
+  //     "php",
+  //     "wordpress",
+  //   ],
+  //   image: `${pro10}`,
+  //   link: "https://cardozoabogados.com.ar/",
+  // },
   {
     title: "MyTaskApp - Django REST framework + (Vite/React/TS)",
     description:
