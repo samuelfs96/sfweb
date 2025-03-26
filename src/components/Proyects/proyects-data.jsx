@@ -1,10 +1,10 @@
-import pro1 from "../../img/proyects/pro1.png";
-import pro4 from "../../img/proyects/pro4.png";
+/* import pro1 from "../../img/proyects/pro1.png";
+import pro4 from "../../img/proyects/pro4.png"; */
 import pro5 from "../../img/proyects/pro5.png";
-import pro6 from "../../img/proyects/pro6.png";
+//import pro6 from "../../img/proyects/pro6.png";
 import pro7 from "../../img/proyects/pro7.png";
 //import pro10 from "../../img/proyects/pro10.png";
-import pro11 from "../../img/proyects/pro11.png";
+//import pro11 from "../../img/proyects/pro11.png";
 import pro12 from "../../img/proyects/pro12.png";
 import pro13 from "../../img/proyects/pro13.png";
 //import pro15 from "../../img/proyects/pro15.png";
@@ -154,32 +154,32 @@ const proyects = [
     link: "https://lolchampstats-app.vercel.app/",
     code_link: "https://github.com/samuelfs96/lolchampstats-app"
   },
-  {
-    title: "Technical Test (Workflow) - React Flow Library",
-    description:
-      "This technical assessment was performed to validate skills, including product and user listings, pagination functionality, and a workflow implementation using the React Flow library.",
-    skills: [
-      "html",
-      "css",
-      "javascript",
-      "react",
-      "tailwind",
-      "react-query",
-      "react-flow",
-    ],
-    image: `${pro4}`,
-    link: "https://snazzy-kleicha-e00173.netlify.app/flow",
-    code_link: "https://github.com/samuelfs96/cpanax-test"
-  },
-  {
-    title: "Frontend Mentor - E-commerce product page challenge",
-    description:
-      "This product page was created to fulfill the requirements of the Frontendmentor challenge found at https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6. It includes a responsive layout and a fully functional shopping cart",
-    skills: ["html", "css", "javascript", "react", "tailwind"],
-    image: `${pro6}`,
-    link: "https://polite-crepe-fdbcd1.netlify.app/",
-    code_link: "https://github.com/samuelfs96/frontend-mentor-ec-product-page"
-  },
+  // {
+  //   title: "Technical Test (Workflow) - React Flow Library",
+  //   description:
+  //     "This technical assessment was performed to validate skills, including product and user listings, pagination functionality, and a workflow implementation using the React Flow library.",
+  //   skills: [
+  //     "html",
+  //     "css",
+  //     "javascript",
+  //     "react",
+  //     "tailwind",
+  //     "react-query",
+  //     "react-flow",
+  //   ],
+  //   image: `${pro4}`,
+  //   link: "https://snazzy-kleicha-e00173.netlify.app/flow",
+  //   code_link: "https://github.com/samuelfs96/cpanax-test"
+  // },
+  // {
+  //   title: "Frontend Mentor - E-commerce product page challenge",
+  //   description:
+  //     "This product page was created to fulfill the requirements of the Frontendmentor challenge found at https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6. It includes a responsive layout and a fully functional shopping cart",
+  //   skills: ["html", "css", "javascript", "react", "tailwind"],
+  //   image: `${pro6}`,
+  //   link: "https://polite-crepe-fdbcd1.netlify.app/",
+  //   code_link: "https://github.com/samuelfs96/frontend-mentor-ec-product-page"
+  // },
   // {
   //   title: "Cardozo Abogados - Website",
   //   description:
@@ -215,24 +215,24 @@ const proyects = [
     link: "https://github.com/samuelfs96/MyTasksApp",
     code_link: "https://github.com/samuelfs96/MyTasksApp"
   },
-  {
-    title: "Pokédex Simulator",
-    description:
-      "A full-featured Pokédex simulator, powered by data fetched from the PokeAPI: https://pokeapi.co/. It provides a complete list, intuitive controls, and integrated soundtrack.",
-    skills: ["html", "css", "javascript", "react", "tailwind"],
-    image: `${pro1}`,
-    link: "https://magnificent-liger-2d9dfc.netlify.app/",
-    code_link: "https://github.com/samuelfs96/personal-pokedex"
-  },
-  {
-    title: "Good Practices App",
-    description:
-      `Developed as a learning tool, this application aims to exercise the concepts and principles of clean architecture, along with state management implementation using Redux.`,
-    skills: ["html", "css", "javascript", "react", "material-ui", "redux", "style-components"],
-    image: `${pro11}`,
-    link: "https://euphonious-sable-a6025e.netlify.app/",
-    code_link: "https://github.com/samuelfs96/good-practices-app"
-  },
+  // {
+  //   title: "Pokédex Simulator",
+  //   description:
+  //     "A full-featured Pokédex simulator, powered by data fetched from the PokeAPI: https://pokeapi.co/. It provides a complete list, intuitive controls, and integrated soundtrack.",
+  //   skills: ["html", "css", "javascript", "react", "tailwind"],
+  //   image: `${pro1}`,
+  //   link: "https://magnificent-liger-2d9dfc.netlify.app/",
+  //   code_link: "https://github.com/samuelfs96/personal-pokedex"
+  // },
+  // {
+  //   title: "Good Practices App",
+  //   description:
+  //     `Developed as a learning tool, this application aims to exercise the concepts and principles of clean architecture, along with state management implementation using Redux.`,
+  //   skills: ["html", "css", "javascript", "react", "material-ui", "redux", "style-components"],
+  //   image: `${pro11}`,
+  //   link: "https://euphonious-sable-a6025e.netlify.app/",
+  //   code_link: "https://github.com/samuelfs96/good-practices-app"
+  // },
 ];
 
 export default proyects;
