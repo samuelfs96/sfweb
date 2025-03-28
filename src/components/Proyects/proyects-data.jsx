@@ -6,12 +6,13 @@ import pro7 from "../../img/proyects/pro7.png";
 //import pro10 from "../../img/proyects/pro10.png";
 //import pro11 from "../../img/proyects/pro11.png";
 import pro12 from "../../img/proyects/pro12.png";
-import pro13 from "../../img/proyects/pro13.png";
+//import pro13 from "../../img/proyects/pro13.png";
 //import pro15 from "../../img/proyects/pro15.png";
 import pro16 from "../../img/proyects/pro16.png";
 import pro17 from "../../img/proyects/pro17.png";
 import pro18 from "../../img/proyects/pro18.png";
 import pro19 from "../../img/proyects/pro19.png";
+import pro20 from "../../img/proyects/pro20.png";
 
 const proyects = [
   // {
@@ -137,6 +138,26 @@ const proyects = [
     figma_pro: "https://www.figma.com/proto/HtzbchFBaX3Bx9hPI72K9J/MB-WEBSITE?node-id=1-73&p=f&t=Im2Ox7TPv6BxUNVv-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
   },
   {
+    title: "Personal Wallet App - Modern Dashboard UI",
+    description:
+      "A modern financial tracking application built with React and TypeScript that helps users manage their personal finances with an intuitive and responsive interface. The project emphasizes clean code architecture, component reusability, and user experience.",
+    skills: [
+      "html",
+      "css",
+      "javascript",
+      "typescript",
+      "react",
+      "tailwind",
+      "vite",
+      "redux",
+      "recharts",
+      "xlsx",
+    ],
+    image: `${pro20}`,
+    link: "https://my-personal-wallet-app.netlify.app/",
+    code_link: "https://github.com/samuelfs96/my-personal-wallet-app"
+  },
+  {
     title: "LolChampionStats - League of Legends champions data",
     description:
       `This React/Next.js web application, developed for both educational and recreational use, leverages the League of Legends public API https://developer.riotgames.com/docs/lol to provide a full champion roster, advanced search filters (tabbed and text-based), and detailed champion profiles (images, descriptions, lore, stats, skins). Implemented with server-side rendering (SSR) and adhering to best development practices, it ensures exceptionally fast loading speeds.`,
@@ -194,27 +215,27 @@ const proyects = [
   //   image: `${pro10}`,
   //   link: "https://cardozoabogados.com.ar/",
   // },
-  {
-    title: "MyTaskApp - Django REST framework + (Vite/React/TS)",
-    description:
-      "A task and note management application, designed with a user experience similar to Google Keep, supporting Google and Apple authentication. It's implemented with Django REST Framework for the API and React.js for the client-side interface.",
-    skills: [
-      "html",
-      "css",
-      "javascript",
-      "typescript",
-      "react",
-      "tailwind",
-      "vite",
-      "framer-motion",
-      "phyton",
-      "django",
-      "django-rest-framework"
-    ],
-    image: `${pro13}`,
-    link: "https://github.com/samuelfs96/MyTasksApp",
-    code_link: "https://github.com/samuelfs96/MyTasksApp"
-  },
+  // {
+  //   title: "MyTaskApp - Django REST framework + (Vite/React/TS)",
+  //   description:
+  //     "A task and note management application, designed with a user experience similar to Google Keep, supporting Google and Apple authentication. It's implemented with Django REST Framework for the API and React.js for the client-side interface.",
+  //   skills: [
+  //     "html",
+  //     "css",
+  //     "javascript",
+  //     "typescript",
+  //     "react",
+  //     "tailwind",
+  //     "vite",
+  //     "framer-motion",
+  //     "phyton",
+  //     "django",
+  //     "django-rest-framework"
+  //   ],
+  //   image: `${pro13}`,
+  //   link: "https://github.com/samuelfs96/MyTasksApp",
+  //   code_link: "https://github.com/samuelfs96/MyTasksApp"
+  // },
   // {
   //   title: "Pokédex Simulator",
   //   description:
